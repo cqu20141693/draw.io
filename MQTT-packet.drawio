@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-28T03:40:53.388Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="V1tl1KtAYt86cbdjWpGQ" version="15.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-28T03:41:48.503Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="CnwdIReioY-ulKpQJQGv" version="15.2.7" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1865" dy="491" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="1">
       <root>
@@ -78,10 +78,10 @@
           <mxGeometry x="92" y="809" width="38" height="38" as="geometry" />
         </mxCell>
         <mxCell id="slnyN1TMM2L7qAsyfplw-12" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="356" y="338" width="20" height="550" as="geometry" />
+          <mxGeometry x="481.5" y="212.5" width="20" height="801" as="geometry" />
         </mxCell>
         <mxCell id="slnyN1TMM2L7qAsyfplw-13" value="CONNECT 报文" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="292" y="564" width="97" height="19" as="geometry" />
+          <mxGeometry x="440" y="577" width="97" height="19" as="geometry" />
         </mxCell>
         <mxCell id="slnyN1TMM2L7qAsyfplw-14" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="45" y="792" width="20" height="147" as="geometry" />
@@ -99,7 +99,7 @@
           <mxGeometry x="163" y="825" width="83" height="19" as="geometry" />
         </mxCell>
         <mxCell id="slnyN1TMM2L7qAsyfplw-19" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="425" y="443" width="20" height="405" as="geometry" />
+          <mxGeometry x="552" y="316" width="20" height="659" as="geometry" />
         </mxCell>
         <mxCell id="slnyN1TMM2L7qAsyfplw-20" value="剩余长度" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="461" y="618" width="59" height="19" as="geometry" />
@@ -273,6 +273,12 @@
         </mxCell>
         <mxCell id="slnyN1TMM2L7qAsyfplw-78" value="保留位" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="512" y="924" width="47" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="slnyN1TMM2L7qAsyfplw-79" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="684.75" y="472.75" width="20" height="400.51" as="geometry" />
+        </mxCell>
+        <mxCell id="slnyN1TMM2L7qAsyfplw-80" value="payload" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="713" y="644" width="53" height="19" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
