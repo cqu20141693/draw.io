@@ -1,1 +1,308 @@
-<mxfile host="app.diagrams.net" modified="2021-11-09T05:59:36.872Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="wNJcjWS1XbgAk2OlE9a3" version="15.7.0" type="github"><diagram id="6UUS9BngQqoZ4q6VCx7F" name="Page-1">7VlNk6M2EP01VCUHTyEwGI7g8Wa3KqlM4tpNcpRBBtUIRITwx/76tEAYA/bYu+vZODU5IZpWS+r3+tHYhj3Pdj8JXKS/8JgwwzLjnWE/GpaFTNuDi7LsG8vUR40hETTWTp1hST+Tdqa2VjQmZc9Rcs4kLfrGiOc5iWTPhoXg277bmrP+qgVOyMiwjDAbW/+gsUwbq2fNOvt7QpO0XRm5fvMkw62zPkmZ4phvj0z2wrDngnPZjLLdnDCVvDYvzbx3Z54eNiZILq+aYL7fx3H0l5l84L/+9ilc/Pm0mUybKBvMKn3gslqVkaArIvS25b7NBZygUMMqYz/TNWE0h7uwIIJmRIK//ci0+amzhduUSrIscKSmboElYEtlxuAOwRCAkximiMM9Y7go6ape1QSLIFElSrohv5Oy4Yey8kqqleYH3JVRn4YISXZn04QOyQfWEg77FHtw0RNsDZfmq6tvtx34yNS29Ah4uzViTbjkELnDBAYali+ACKERRsZiZvhTI7SNhWcE74xwVg8WRgCPfMP3DM+JUgyZYSMQj1Kv8kSB6gGjSQ62FZeSZ/CA5HGgakfZGI+eFQi8ymMS9/JM4lHtHGX5LN3Opt58sBzbH+Xb05kVhGEJNOjX+Il06wWeOIXNHKI7fWAtNIhQ8kpERE86rqNBHMv0H5yXQ0ksEiJfCNU68vW6JHJEkUNqvp41zpg0loszVXz5qlSX5YcnxQwiNm+21Kf3VuvuRdQyElP8xnFz0L3h1r7jj4D7GMxrzUpoqZJsmf16g1QEQSVTLuhnUDWe35dQu6cBuL0qWwMskT3A6FpZniDrQqQzqgwJxPsjt0I5lOd3DNQa6H+7UsegJuZNBX12URqKasVomdbsesvy4M7uTR78EXaUy7cJDvLvDRw0/ga6Ly32X0zoxHwwzYEejXN6Zz30dNRCO9e10F8q1t7pDZ/b19Dd6bn3hf17dvPoZDvPgDVhWeC8R1b370r9pBCuofInTUUH4IBQsavbDuChucLRc1KzcwKCwEXjIpLVD5bjKC9LNS+D8Y9dbBgl6hqlBIhumTHZUBAgy+R5LVt6b3DWZnuN96isQEZkX66wrqoISqKWt2G5ZTSO1XSQLTgb7mRMMwHiOqHhPKpYleRa0VToUgr+DIJWH/cx57W6riljA9MNRM4atCLWbPxVe2hXjlXOejWRG39ZXGhQ/y0F1CvXQnK5HWpk4gU/5zRQt5fG2bD9HGJ5rTZ65oVAN5JG90zn/apdLBq3Qh+DJRimJlKwbLcT9VUEdACGSTJscb+Vlrwg8CiMMbTJsZ4Hj/XPzt5rEta5krCz04T9RnZOBz0xcr6SnbZ/IdCN2OkMWg3kfgd2tp3f/6/Z/8RrFg2V0jvxMXGj1yzcdn/VNHzr/vCyF/8A</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-09T07:39:41.684Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="wkklQeP43xC5hNP8Mime" version="15.7.0" type="github">
+  <diagram id="6UUS9BngQqoZ4q6VCx7F" name="Page-1">
+    <mxGraphModel dx="919" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="10HyddcY0gIoOQVBEXPv-4" value="subscriber" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="60" width="100" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="10HyddcY0gIoOQVBEXPv-11" value="申请订阅channel" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="10HyddcY0gIoOQVBEXPv-4" edge="1">
+          <mxGeometry x="0.2539" width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="421" as="sourcePoint" />
+            <mxPoint x="209.5" y="421" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10HyddcY0gIoOQVBEXPv-5" value="&amp;nbsp;SIP server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="340" y="60" width="100" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-2" value="md5 authenticate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="10HyddcY0gIoOQVBEXPv-5">
+          <mxGeometry x="-50" y="134" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-12" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" edge="1" parent="10HyddcY0gIoOQVBEXPv-5">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-100" y="230" as="sourcePoint" />
+            <mxPoint x="50" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-13" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="qBGxzSzK9V-PdyPtXiU0-12">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-14" value="response deviceID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qBGxzSzK9V-PdyPtXiU0-12">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-29" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="10HyddcY0gIoOQVBEXPv-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-100" y="470" as="sourcePoint" />
+            <mxPoint x="50" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-30" value="get subscribe url &lt;br&gt;by deviceID/channel" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qBGxzSzK9V-PdyPtXiU0-29">
+          <mxGeometry x="-0.208" relative="1" as="geometry">
+            <mxPoint x="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-50" value="response subscribe req" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;verticalAlign=bottom;" edge="1" parent="10HyddcY0gIoOQVBEXPv-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="50" y="643" as="sourcePoint" />
+            <mxPoint x="-100.5" y="643" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-39.5" y="643" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10HyddcY0gIoOQVBEXPv-6" value="&amp;nbsp;media server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="510" y="66" width="100" height="884" as="geometry" />
+        </mxCell>
+        <mxCell id="10HyddcY0gIoOQVBEXPv-20" value="UAC register SIP server :Authorization" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="10HyddcY0gIoOQVBEXPv-6" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="210" y="130" as="sourcePoint" />
+            <mxPoint x="-120" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100.5" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-35" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="10HyddcY0gIoOQVBEXPv-6">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-120" y="535" as="sourcePoint" />
+            <mxPoint x="50" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-36" value="create channel by&lt;br&gt;&amp;nbsp;deviceID(srs)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qBGxzSzK9V-PdyPtXiU0-35">
+          <mxGeometry x="0.0988" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-47" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;rounded=0;verticalAlign=bottom;" edge="1" parent="10HyddcY0gIoOQVBEXPv-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="49.5" y="684" as="sourcePoint" />
+            <mxPoint x="49.5" y="724" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-10" y="684" />
+              <mxPoint x="-10" y="724" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-55" value="push stream&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="10HyddcY0gIoOQVBEXPv-6" target="10HyddcY0gIoOQVBEXPv-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50.5" y="734" as="sourcePoint" />
+            <mxPoint x="-280" y="734" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10HyddcY0gIoOQVBEXPv-7" value="&amp;nbsp;publisher server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="670" y="62" width="100" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-17" value="keepAlive" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="10HyddcY0gIoOQVBEXPv-7">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="347" as="sourcePoint" />
+            <mxPoint x="-280.5" y="347" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-42" value="200 OK(SDP 消息)" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;verticalAlign=bottom;" edge="1" parent="10HyddcY0gIoOQVBEXPv-7" target="10HyddcY0gIoOQVBEXPv-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="50" y="630" as="sourcePoint" />
+            <mxPoint x="-120" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-39.5" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-43" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="10HyddcY0gIoOQVBEXPv-7">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-280" y="650" as="sourcePoint" />
+            <mxPoint x="49.5" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10HyddcY0gIoOQVBEXPv-9" value="iot" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="190" y="60" width="100" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="10HyddcY0gIoOQVBEXPv-14" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="10HyddcY0gIoOQVBEXPv-9" edge="1">
+          <mxGeometry x="-0.005" y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="421" as="sourcePoint" />
+            <mxPoint x="49.5" y="461" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="421" />
+              <mxPoint x="80" y="461" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-10" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;rounded=0;" edge="1" parent="10HyddcY0gIoOQVBEXPv-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="49.5" y="180" as="sourcePoint" />
+            <mxPoint x="49.5" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-10" y="180" />
+              <mxPoint x="-10" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-52" value="respnse apply req&lt;br&gt;(subsribe rul)" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;verticalAlign=bottom;" edge="1" parent="10HyddcY0gIoOQVBEXPv-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="50" y="650" as="sourcePoint" />
+            <mxPoint x="-110" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-39.5" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10HyddcY0gIoOQVBEXPv-15" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;check device online&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="220" y="489" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="10HyddcY0gIoOQVBEXPv-16" value="UAC register SIP server" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" parent="1" source="10HyddcY0gIoOQVBEXPv-7" target="10HyddcY0gIoOQVBEXPv-5" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="720" y="120" as="sourcePoint" />
+            <mxPoint x="800" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10HyddcY0gIoOQVBEXPv-19" value="UAS 401 www-Authenticate&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" parent="1" source="10HyddcY0gIoOQVBEXPv-5" target="10HyddcY0gIoOQVBEXPv-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="150" as="sourcePoint" />
+            <mxPoint x="390" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-1" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="10HyddcY0gIoOQVBEXPv-5" target="10HyddcY0gIoOQVBEXPv-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="340" y="210" as="sourcePoint" />
+            <mxPoint x="420" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="190" />
+              <mxPoint x="340" y="190" />
+              <mxPoint x="330" y="190" />
+              <mxPoint x="330" y="200" />
+              <mxPoint x="330" y="210" />
+              <mxPoint x="330" y="220" />
+              <mxPoint x="360" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-6" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="389.5" y="308" as="sourcePoint" />
+            <mxPoint x="390" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="308" />
+              <mxPoint x="330" y="360" />
+              <mxPoint x="390" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-7" value="1. session :deviceID&lt;br&gt;2. session expire timer&lt;br&gt;3. keepAlive timeout counter" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="303" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-9" value="device online" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="389.5" y="240" as="sourcePoint" />
+            <mxPoint x="239.5" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-11" value="1. check device&lt;br&gt;2. update device status" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="129" y="246" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-15" value="200" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="389.5" y="381" as="sourcePoint" />
+            <mxPoint x="719.5" y="381" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="381" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-27" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;verticalAlign=bottom;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="389.5" y="430" as="sourcePoint" />
+            <mxPoint x="719.5" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-28" value="register flush" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="522" y="414" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-32" value="1. session check&lt;br&gt;2. channel status check" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="381" y="541" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-33" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="390" y="665" as="sourcePoint" />
+            <mxPoint x="719.5" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-34" value="send invite by ssrc(SDP消息)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qBGxzSzK9V-PdyPtXiU0-33">
+          <mxGeometry x="-0.0932" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-37" value="ssrc" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;verticalAlign=bottom;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="557" y="642" as="sourcePoint" />
+            <mxPoint x="387" y="642" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="467.5" y="642" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-38" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;rounded=0;verticalAlign=bottom;" edge="1" parent="1" source="10HyddcY0gIoOQVBEXPv-5" target="10HyddcY0gIoOQVBEXPv-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="519.5" y="570" as="sourcePoint" />
+            <mxPoint x="400" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="530" />
+              <mxPoint x="460" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-39" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;rounded=0;verticalAlign=bottom;" edge="1" parent="1" source="10HyddcY0gIoOQVBEXPv-6" target="10HyddcY0gIoOQVBEXPv-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="600" as="sourcePoint" />
+            <mxPoint x="570" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="600" />
+              <mxPoint x="620" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-40" value="1. ssrc: strream&lt;br&gt;2. subsriber timer check" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="563" y="604" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-44" value="ACK :握手确认，不需要回复" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="485" y="697" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-45" value="push rtp ps stream" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="720.5" y="750" as="sourcePoint" />
+            <mxPoint x="560" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-48" value="srs 解析rtp ssrc 映射到stream" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="425" y="760" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-53" value="" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" target="10HyddcY0gIoOQVBEXPv-6">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="84" y="740" as="sourcePoint" />
+            <mxPoint x="413.5" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBGxzSzK9V-PdyPtXiU0-54" value="rtmp subscribe" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qBGxzSzK9V-PdyPtXiU0-53">
+          <mxGeometry x="-0.1108" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
