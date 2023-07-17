@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-16T04:41:44.636Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="4h_aqu7SQTQk-6wrvmy0" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-17T02:08:41.366Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Ua2E_c5Cq1mYqZ0j841t" version="21.6.2" type="github">
   <diagram id="iBte2pI2jz2rYQuNefFY" name="第 1 页">
-    <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1257" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -146,15 +146,6 @@
         <mxCell id="woK0yzQSYLWEiJonhJk_-61" value="&lt;span style=&quot;background-color: rgb(176, 227, 230);&quot;&gt;&lt;span style=&quot;font-family: Arial, Helvetica; font-size: 12px; text-align: center;&quot;&gt;1.&amp;nbsp; 提供配置配置管理，动态增加协议包，关联设备和解析协议包&lt;br&gt;2. 平台提供上行业务数据处理能力：规则引擎，数据预处理，多云交互，数据存储等业务功能&lt;br&gt;3. 平台提供下行功能调用能力&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;" style="strokeColor=none;fillColor=none;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="720" y="705" width="200" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="woK0yzQSYLWEiJonhJk_-64" value="属性上报" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="340" y="1754" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="woK0yzQSYLWEiJonhJk_-65" value="ota升级" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="582" y="1764" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="woK0yzQSYLWEiJonhJk_-66" value="指令下发" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="852" y="1754" width="100" height="100" as="geometry" />
-        </mxCell>
         <mxCell id="j2j0sg28cAgT2Ne_cbJ5-1" value="协议包管理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="545" y="809" width="102" height="30" as="geometry" />
         </mxCell>
@@ -162,40 +153,251 @@
           <mxGeometry x="545" y="760" width="102" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QxR6OnLQPa4rLAfjmDMy-39" value="图1 MQTT网关" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="566" y="852" width="94" height="28" as="geometry" />
+          <mxGeometry x="566" y="864" width="94" height="28" as="geometry" />
         </mxCell>
         <mxCell id="QxR6OnLQPa4rLAfjmDMy-44" value="&lt;span style=&quot;font-size: 15px; background-color: rgb(208, 206, 226);&quot;&gt;平台MQTT消息(MqttModel)：&lt;br&gt;&lt;b&gt;deviceId：&lt;/b&gt;平台设备标识，对应CONNECT包中的clientId&lt;br&gt;&lt;b&gt;topic&lt;/b&gt;：消息发送的主题，对应PUBLISH包中的消息主题&lt;br&gt;&lt;b&gt;qos&lt;/b&gt;：消息服务质量，对应PUBLISH包中的Qos服务质量&lt;br&gt;&lt;b&gt;payload&lt;/b&gt;：消息载荷，对应客户端上报的应用数据&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#D0CEE2;strokeColor=#56517e;" vertex="1" parent="1">
-          <mxGeometry x="340" y="928" width="470" height="100" as="geometry" />
+          <mxGeometry x="340" y="910" width="470" height="100" as="geometry" />
         </mxCell>
         <mxCell id="QxR6OnLQPa4rLAfjmDMy-45" value="图2 平台MQTT消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="525" y="1027" width="110" height="30" as="geometry" />
+          <mxGeometry x="525" y="1009" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QxR6OnLQPa4rLAfjmDMy-47" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;DataParseCodec&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;数据解析编解码器&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp; //解析器唯一标识，用于映射和查找&lt;br&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;+ identifer(): String&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;// 解析器自定义数据解析将上报的消息解析为平台的业务模型&lt;br&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;+ encode(MqttModel): DeviceMessage&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;// 解析器自定义数据编码将下行的平台业务数据编码为平台MQTT消息&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;+ encode(DeviceMessage): MqttModel&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="490" y="1348" width="396" height="160" as="geometry" />
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-47" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;DataParseCodec&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;数据解析编解码标准接口&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp; //解析器唯一标识，用于映射和查找&lt;br&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;+ identifer(): String&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;// 解析器自定义数据解析将上报的消息解析为平台的业务模型&lt;br&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;+ encode(MqttModel): DeviceMessage&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;// 解析器自定义数据编码将下行的平台业务数据编码为平台MQTT消息&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;+ encode(DeviceMessage): MqttModel&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="278" y="1453" width="396" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="QxR6OnLQPa4rLAfjmDMy-48" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;DeviceMessage&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;平台业务模型接口&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;// 平台业务数据关联的设备&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;+ deviceId(): String&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;br&gt;// 时间戳&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;+ timestap():&amp;nbsp; long&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;// 消息唯一ID，可用于记录和匹配应答&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;+ messageId() : String&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="780" y="1135" width="350" height="155" as="geometry" />
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-48" value="&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;DeviceMessage&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; margin: 4px 0px 0px; font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;平台业务模型接口&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;// 平台业务数据关联的设备&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;+ deviceId(): String&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;br&gt;// 时间戳&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;+ timestamp():&amp;nbsp; long&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;// 消息唯一ID，可用于记录和匹配应答&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;+ messageId() : String&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="636" y="1161" width="350" height="155" as="geometry" />
         </mxCell>
-        <mxCell id="QxR6OnLQPa4rLAfjmDMy-49" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="QxR6OnLQPa4rLAfjmDMy-47" target="QxR6OnLQPa4rLAfjmDMy-48">
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-49" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="QxR6OnLQPa4rLAfjmDMy-47" target="QxR6OnLQPa4rLAfjmDMy-48">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="740" y="1230" as="sourcePoint" />
-            <mxPoint x="900" y="1230" as="targetPoint" />
+            <mxPoint x="740" y="1323" as="sourcePoint" />
+            <mxPoint x="900" y="1323" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QxR6OnLQPa4rLAfjmDMy-50" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;MqttModel&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;平台MQTT消息&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&amp;nbsp;// 平台设备标识，对应CONNECT包中的clientId&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 14px;&quot;&gt;&lt;b&gt;+ deviceId: String&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&amp;nbsp;// 消息发送的主题，对应PUBLISH包中的消息主题&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;+ topic: String&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&amp;nbsp;// 消息服务质量，对应PUBLISH包中的Qos服务质量&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;+ qos: int&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&amp;nbsp;// 消息载荷，对应客户端上报的应用数据&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;+ payload: bytes&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="269.5" y="1110" width="300" height="179" as="geometry" />
+          <mxGeometry x="278" y="1160" width="300" height="179" as="geometry" />
         </mxCell>
-        <mxCell id="QxR6OnLQPa4rLAfjmDMy-51" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="QxR6OnLQPa4rLAfjmDMy-47" target="QxR6OnLQPa4rLAfjmDMy-50">
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-51" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="QxR6OnLQPa4rLAfjmDMy-47" target="QxR6OnLQPa4rLAfjmDMy-50">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="232" y="1405" as="sourcePoint" />
-            <mxPoint x="390" y="1236" as="targetPoint" />
+            <mxPoint x="232" y="1498" as="sourcePoint" />
+            <mxPoint x="390" y="1329" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QxR6OnLQPa4rLAfjmDMy-53" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Class&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="1370" width="160" height="90" as="geometry" />
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-54" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;ReportPropertyMessage&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;messageId&lt;span style=&quot;background-color: initial;&quot;&gt;: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ deviceId: String&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;timestamp: Long&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;// 上报的属性数据，key(属性标识)value(值)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&lt;b&gt;&amp;nbsp;properties&lt;span style=&quot;background-color: initial;&quot;&gt;: Map&amp;lt;String,Object&amp;gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;// 上报的属性时间，key(属性标识)value(时间戳)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&lt;b&gt;&amp;nbsp;propertyTime: Map&amp;lt;String,Long&amp;gt;&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;+ deviceId(): String&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;+ timestamp():&amp;nbsp; long&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&amp;nbsp;+ messageId() : String&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&amp;nbsp;// 每个属性的get，set方法&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;+ Getter &amp;amp; Setter&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="940" y="1453" width="258" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="QxR6OnLQPa4rLAfjmDMy-54" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Class&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1280" y="1270" width="160" height="90" as="geometry" />
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-56" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="QxR6OnLQPa4rLAfjmDMy-54" target="QxR6OnLQPa4rLAfjmDMy-48">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1030" y="1433" as="sourcePoint" />
+            <mxPoint x="870" y="1353" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-57" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;FunctionInvokeMessage&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;messageId&lt;span style=&quot;background-color: initial;&quot;&gt;: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ deviceId: String&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;timestamp: Long&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;// 功能调用ID,可用于客户端标识功能&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;+ functionId&lt;span style=&quot;background-color: initial;&quot;&gt;: String&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;// 功能调用输入参数数据&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;b&gt;+&amp;nbsp;inputs: Map&amp;lt;String,Object&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;+ deviceId(): String&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;+ timestamp():&amp;nbsp; long&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&amp;nbsp;+ messageId() : String&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&amp;nbsp;// 每个属性的get，set方法&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&lt;b&gt;&amp;nbsp;&lt;/b&gt;+ Getter &amp;amp; Setter&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="697" y="1453" width="220" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-59" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="QxR6OnLQPa4rLAfjmDMy-57" target="QxR6OnLQPa4rLAfjmDMy-48">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1180" y="1456" as="sourcePoint" />
+            <mxPoint x="1070" y="1323" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-60" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;其他业务模型&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;...&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;+ deviceId(): String&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;+ timestamp():&amp;nbsp; long&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&amp;nbsp;+ messageId() : String&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&amp;nbsp;...&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="1283" width="189" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-62" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="QxR6OnLQPa4rLAfjmDMy-60" target="QxR6OnLQPa4rLAfjmDMy-48">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1079" y="1463" as="sourcePoint" />
+            <mxPoint x="821" y="1340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QxR6OnLQPa4rLAfjmDMy-63" target="QxR6OnLQPa4rLAfjmDMy-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="428" y="1880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-66" value="MqttModel平台数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QxR6OnLQPa4rLAfjmDMy-65">
+          <mxGeometry x="-0.191" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-63" value="协议包解析&lt;br&gt;上行数据" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="393" y="1790" width="85" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QxR6OnLQPa4rLAfjmDMy-69" target="QxR6OnLQPa4rLAfjmDMy-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-72" value="属性上报topic" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QxR6OnLQPa4rLAfjmDMy-71">
+          <mxGeometry x="-0.2463" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QxR6OnLQPa4rLAfjmDMy-69" target="QxR6OnLQPa4rLAfjmDMy-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-75" value="其他业务topic" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QxR6OnLQPa4rLAfjmDMy-74">
+          <mxGeometry x="0.3724" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-69" value="获取topic，&lt;br&gt;判断业务&lt;br&gt;数据类型" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1880" width="132" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QxR6OnLQPa4rLAfjmDMy-70" target="QxR6OnLQPa4rLAfjmDMy-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-78" value="数据预处理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QxR6OnLQPa4rLAfjmDMy-77">
+          <mxGeometry x="0.0474" relative="1" as="geometry">
+            <mxPoint y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-70" value="读取载荷字节数据" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="384" y="1972" width="106" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QxR6OnLQPa4rLAfjmDMy-73" target="QxR6OnLQPa4rLAfjmDMy-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-73" value="数据解析处理&lt;br&gt;1，2，3...n" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1990" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QxR6OnLQPa4rLAfjmDMy-76" target="QxR6OnLQPa4rLAfjmDMy-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-76" value="数据预处理：签名验证" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="372" y="2043" width="131" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QxR6OnLQPa4rLAfjmDMy-80" target="QxR6OnLQPa4rLAfjmDMy-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-80" value="数据预处理：数据加解密" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="367" y="2098" width="141" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QxR6OnLQPa4rLAfjmDMy-81" target="QxR6OnLQPa4rLAfjmDMy-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="439" y="2232" as="sourcePoint" />
+            <mxPoint x="439.2499999999998" y="2302" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-90" value="原始数据转换业务模型" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QxR6OnLQPa4rLAfjmDMy-89">
+          <mxGeometry x="-0.3911" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-81" value="数据预处理：数据按格式解码&lt;br&gt;(json,xml,protobuf...)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="351.25" y="2144" width="173.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QxR6OnLQPa4rLAfjmDMy-85" target="QxR6OnLQPa4rLAfjmDMy-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="439.2105263157896" y="2357" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-93" value="业务模型传递平台业务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QxR6OnLQPa4rLAfjmDMy-92">
+          <mxGeometry x="-0.3178" relative="1" as="geometry">
+            <mxPoint x="1" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-85" value="将解析的到的元素数据转换为属性上报模型(ReportPropertyMessage)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="339.5" y="2210" width="200.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-91" value="平台业务处理" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="377" y="2286" width="133" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QxR6OnLQPa4rLAfjmDMy-123" target="QxR6OnLQPa4rLAfjmDMy-128">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="978" y="1880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-122" value="平台业务下行数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QxR6OnLQPa4rLAfjmDMy-121">
+          <mxGeometry x="-0.191" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-123" value="协议包解析&lt;br&gt;下行数据" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="943" y="1790" width="85" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QxR6OnLQPa4rLAfjmDMy-128" target="QxR6OnLQPa4rLAfjmDMy-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-125" value="功能调用(FunctionInvokeMessage)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QxR6OnLQPa4rLAfjmDMy-124">
+          <mxGeometry x="-0.2463" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QxR6OnLQPa4rLAfjmDMy-128" target="QxR6OnLQPa4rLAfjmDMy-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-127" value="其他业务topic" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QxR6OnLQPa4rLAfjmDMy-126">
+          <mxGeometry x="0.3724" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-128" value="下行业务类型" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1880" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QxR6OnLQPa4rLAfjmDMy-145" target="QxR6OnLQPa4rLAfjmDMy-135">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="2050" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-130" value="数据预处理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QxR6OnLQPa4rLAfjmDMy-129">
+          <mxGeometry x="0.0474" relative="1" as="geometry">
+            <mxPoint y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QxR6OnLQPa4rLAfjmDMy-131" target="QxR6OnLQPa4rLAfjmDMy-145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-131" value="读取fucntionId和inputs参数数据" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="898" y="1952" width="177" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QxR6OnLQPa4rLAfjmDMy-133" target="QxR6OnLQPa4rLAfjmDMy-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-133" value="数据解析处理&lt;br&gt;1，2，3...n" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1990" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QxR6OnLQPa4rLAfjmDMy-135" target="QxR6OnLQPa4rLAfjmDMy-137">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-135" value="数据预处理：数据按格式编码&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;(json,xml,protobuf...)&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="903" y="2072" width="168" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QxR6OnLQPa4rLAfjmDMy-137" target="QxR6OnLQPa4rLAfjmDMy-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-137" value="数据预处理：数据加解密" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="917" y="2125" width="141" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QxR6OnLQPa4rLAfjmDMy-140" target="QxR6OnLQPa4rLAfjmDMy-143">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="989" y="2271" as="sourcePoint" />
+            <mxPoint x="989.75" y="2249" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-139" value="下行数据转换平台MQTT模型" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QxR6OnLQPa4rLAfjmDMy-138">
+          <mxGeometry x="-0.3911" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-140" value="数据预处理：做签名" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="901.25" y="2170" width="173.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QxR6OnLQPa4rLAfjmDMy-143" target="QxR6OnLQPa4rLAfjmDMy-144">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="989.75" y="2289" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-142" value="转MQTT报文数据下发到设备" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QxR6OnLQPa4rLAfjmDMy-141">
+          <mxGeometry x="-0.3178" relative="1" as="geometry">
+            <mxPoint x="1" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-143" value="将适配设备业务处理后的数据转化为MqttModel平台数据" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="887.5" y="2231" width="200.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-144" value="Connection Seesion 封装MQTT包，下发到设备端" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="912" y="2306" width="153" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="QxR6OnLQPa4rLAfjmDMy-145" value="根据功能和参数做设备端功能适配下行业务处理" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="912" y="2002" width="149" height="38" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
