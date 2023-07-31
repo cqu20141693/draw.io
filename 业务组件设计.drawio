@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-28T05:28:01.284Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="YF9bKsIyemNLj3S7NkAY" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-31T09:13:08.588Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="anpF_LaAIZad--PLU5qI" version="21.6.5" type="github">
   <diagram name="Page-1" id="b5b7bab2-c9e2-2cf4-8b2a-24fd1a2a6d21">
     <mxGraphModel dx="2735" dy="1232" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -58,6 +58,9 @@
         <mxCell id="dKWWDcmWUPBlKHuUlRmP-122" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" parent="1" source="dKWWDcmWUPBlKHuUlRmP-24" target="dKWWDcmWUPBlKHuUlRmP-121" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="RpE9AdbBCb5Pv3n_fEv3-166" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="dKWWDcmWUPBlKHuUlRmP-24" target="RpE9AdbBCb5Pv3n_fEv3-165">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dKWWDcmWUPBlKHuUlRmP-24" value="ElasticSearch" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=1;treeMoving=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="1303" width="90" height="27" as="geometry" />
         </mxCell>
@@ -68,7 +71,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dKWWDcmWUPBlKHuUlRmP-40" value="Geo 地理位置" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="305" y="1117" width="120" height="30" as="geometry" />
+          <mxGeometry x="270" y="1220" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dKWWDcmWUPBlKHuUlRmP-107" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" parent="1" source="dKWWDcmWUPBlKHuUlRmP-45" target="dKWWDcmWUPBlKHuUlRmP-106" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -412,11 +415,8 @@
         <mxCell id="dKWWDcmWUPBlKHuUlRmP-212" value="设备告警" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="1" vertex="1">
           <mxGeometry x="605" y="1777" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RpE9AdbBCb5Pv3n_fEv3-5" value="Geo 地理位置" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="305" y="1239" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="RpE9AdbBCb5Pv3n_fEv3-6" value="Geo 地理位置" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="305" y="995" width="120" height="30" as="geometry" />
+        <mxCell id="RpE9AdbBCb5Pv3n_fEv3-6" value="业务元数据存储，查询" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="250" y="1011" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-95" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="RpE9AdbBCb5Pv3n_fEv3-7" target="RpE9AdbBCb5Pv3n_fEv3-94">
           <mxGeometry relative="1" as="geometry" />
@@ -434,10 +434,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-7" value="Websocket实时通知和订阅" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="517" y="3120" width="153" height="30" as="geometry" />
+          <mxGeometry x="478.25" y="3880" width="153" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-8" value="通用私有化协议编解码方案" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="70" y="3660" width="150" height="30" as="geometry" />
+          <mxGeometry x="68.25" y="4340" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-48" value="&lt;pre style=&quot;border-color: var(--border-color); background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-size: 9.8pt;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;create table rule_dev_alarm_history&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;(&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;    &lt;span style=&quot;border-color: var(--border-color); color: rgb(152, 118, 170);&quot;&gt;product_id   &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;varchar&lt;/span&gt;(&lt;span style=&quot;border-color: var(--border-color); color: rgb(104, 151, 187);&quot;&gt;64&lt;/span&gt;)                 &lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;not null,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(152, 118, 170);&quot;&gt;alarm_time   &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;datetime&lt;/span&gt;(&lt;span style=&quot;border-color: var(--border-color); color: rgb(104, 151, 187);&quot;&gt;6&lt;/span&gt;)                 &lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;null,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(152, 118, 170);&quot;&gt;alarm_data   &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;text                        null,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(152, 118, 170);&quot;&gt;description  &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;varchar&lt;/span&gt;(&lt;span style=&quot;border-color: var(--border-color); color: rgb(104, 151, 187);&quot;&gt;2000&lt;/span&gt;)               &lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;null,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(152, 118, 170);&quot;&gt;alarm_name   &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;varchar&lt;/span&gt;(&lt;span style=&quot;border-color: var(--border-color); color: rgb(104, 151, 187);&quot;&gt;255&lt;/span&gt;)                &lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;not null,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(152, 118, 170);&quot;&gt;update_time  &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;datetime&lt;/span&gt;(&lt;span style=&quot;border-color: var(--border-color); color: rgb(104, 151, 187);&quot;&gt;6&lt;/span&gt;)                 &lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;null,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(152, 118, 170);&quot;&gt;type         &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;varchar&lt;/span&gt;(&lt;span style=&quot;border-color: var(--border-color); color: rgb(104, 151, 187);&quot;&gt;255&lt;/span&gt;)                &lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;null,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(152, 118, 170);&quot;&gt;device_id    &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;varchar&lt;/span&gt;(&lt;span style=&quot;border-color: var(--border-color); color: rgb(104, 151, 187);&quot;&gt;64&lt;/span&gt;)                 &lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;not null,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(152, 118, 170);&quot;&gt;device_name  &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;varchar&lt;/span&gt;(&lt;span style=&quot;border-color: var(--border-color); color: rgb(104, 151, 187);&quot;&gt;255&lt;/span&gt;)                &lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;not null,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(152, 118, 170);&quot;&gt;content      &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;varchar&lt;/span&gt;(&lt;span style=&quot;border-color: var(--border-color); color: rgb(104, 151, 187);&quot;&gt;255&lt;/span&gt;)                &lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;null,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(152, 118, 170);&quot;&gt;operator     &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;varchar&lt;/span&gt;(&lt;span style=&quot;border-color: var(--border-color); color: rgb(104, 151, 187);&quot;&gt;255&lt;/span&gt;)                &lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;null,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(152, 118, 170);&quot;&gt;product_name &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;varchar&lt;/span&gt;(&lt;span style=&quot;border-color: var(--border-color); color: rgb(104, 151, 187);&quot;&gt;255&lt;/span&gt;)                &lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;null,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(152, 118, 170);&quot;&gt;alarm_id     &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;varchar&lt;/span&gt;(&lt;span style=&quot;border-color: var(--border-color); color: rgb(104, 151, 187);&quot;&gt;64&lt;/span&gt;)                 &lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;not null,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(152, 118, 170);&quot;&gt;alarm_level  &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;int                         null,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(152, 118, 170);&quot;&gt;id           &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;varchar&lt;/span&gt;(&lt;span style=&quot;border-color: var(--border-color); color: rgb(104, 151, 187);&quot;&gt;64&lt;/span&gt;)                 &lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;not null&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;        primary key,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(152, 118, 170);&quot;&gt;state        &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;varchar&lt;/span&gt;(&lt;span style=&quot;border-color: var(--border-color); color: rgb(104, 151, 187);&quot;&gt;255&lt;/span&gt;)                &lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;null,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(152, 118, 170);&quot;&gt;virtual_id   &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;varchar&lt;/span&gt;(&lt;span style=&quot;border-color: var(--border-color); color: rgb(104, 151, 187);&quot;&gt;32&lt;/span&gt;)                 &lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;null,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;    alarm_&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(152, 118, 170);&quot;&gt;type      &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;varchar&lt;/span&gt;(&lt;span style=&quot;border-color: var(--border-color); color: rgb(104, 151, 187);&quot;&gt;64&lt;/span&gt;)                 &lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;null,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(152, 118, 170);&quot;&gt;record_type  &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;varchar&lt;/span&gt;(&lt;span style=&quot;border-color: var(--border-color); color: rgb(104, 151, 187);&quot;&gt;16&lt;/span&gt;) &lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;default &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(106, 135, 89);&quot;&gt;&#39;ALARM&#39; &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;null,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(152, 118, 170);&quot;&gt;term         &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;bigint      default &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(104, 151, 187);&quot;&gt;0       &lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;not null&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;)&lt;span style=&quot;border-color: var(--border-color); color: rgb(204, 120, 50);&quot;&gt;;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1320" y="1690" width="280" height="380" as="geometry" />
@@ -449,64 +449,64 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-64" value="http 握手身份认证，利用header头传输" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="337" y="2870" width="125" height="30" as="geometry" />
+          <mxGeometry x="298.25" y="3630" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpE9AdbBCb5Pv3n_fEv3-68" target="RpE9AdbBCb5Pv3n_fEv3-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-68" value="websocket server" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="357" y="2780" width="85" height="60" as="geometry" />
+          <mxGeometry x="318.25" y="3540" width="85" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpE9AdbBCb5Pv3n_fEv3-70" target="RpE9AdbBCb5Pv3n_fEv3-74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-70" value="websocket session管理(认证信息，连接session)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="340.5" y="2940" width="116.5" height="40" as="geometry" />
+          <mxGeometry x="301.75" y="3700" width="116.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-72" value="1. WebSocket协议在第一次握手连接时，通过HTTP协议在传送WebSocket支持的版本号，协议的字版本号，原始地址，主机地址等等一些列字段给服务器端&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 服务端根据是否支持websocket扩展协议，支持则回复101,握手完成&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. 握手完成后，将安装tcp长连接处理网络连接，可以双端的消息发送和接送处理消息&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="66" y="2770" width="286" height="110" as="geometry" />
+          <mxGeometry x="27.25" y="3530" width="286" height="110" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpE9AdbBCb5Pv3n_fEv3-74" target="RpE9AdbBCb5Pv3n_fEv3-76">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-74" value="为每一个session创建一个定时监听idle" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="340.5" y="3020" width="116.5" height="40" as="geometry" />
+          <mxGeometry x="301.75" y="3780" width="116.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpE9AdbBCb5Pv3n_fEv3-76" target="RpE9AdbBCb5Pv3n_fEv3-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-76" value="处理PING，PONG" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="338.75" y="3090" width="118.25" height="30" as="geometry" />
+          <mxGeometry x="300" y="3850" width="118.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpE9AdbBCb5Pv3n_fEv3-79" target="RpE9AdbBCb5Pv3n_fEv3-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-79" value="解析其他消息为订阅消息MessageRequest" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="333.75" y="3150" width="128.25" height="30" as="geometry" />
+          <mxGeometry x="295" y="3910" width="128.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-81" value="&lt;div style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-size: 9.8pt;&quot;&gt;public class MessagingRequest {&lt;br&gt;    &lt;span style=&quot;color:#cc7832;&quot;&gt;private &lt;/span&gt;String &lt;span style=&quot;color:#9876aa;&quot;&gt;id&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;    private &lt;/span&gt;Type &lt;span style=&quot;color:#9876aa;&quot;&gt;type&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;    private &lt;/span&gt;String &lt;span style=&quot;color:#9876aa;&quot;&gt;topic&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;    private &lt;/span&gt;Map&amp;lt;String&lt;span style=&quot;color:#cc7832;&quot;&gt;,&lt;/span&gt;Object&amp;gt; &lt;span style=&quot;color:#9876aa;&quot;&gt;parameter&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color:#bbb529;&quot;&gt;@Generated&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#bbb529;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;public enum &lt;/span&gt;Type{&lt;br&gt;        &lt;span style=&quot;color:#9876aa;font-style:italic;&quot;&gt;pub&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;color:#9876aa;font-style:italic;&quot;&gt;sub&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;color:#9876aa;font-style:italic;&quot;&gt;unsub&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;color:#9876aa;font-style:italic;&quot;&gt;ping&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#9876aa;font-style:italic;&quot;&gt;    &lt;/span&gt;}&lt;br&gt;}&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="67" y="2990" width="230" height="160" as="geometry" />
+          <mxGeometry x="28.25" y="3750" width="230" height="160" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpE9AdbBCb5Pv3n_fEv3-82" target="RpE9AdbBCb5Pv3n_fEv3-85">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-82" value="添加连接session 订阅集合，并订阅id判重处理" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="331.75" y="3210" width="133.25" height="30" as="geometry" />
+          <mxGeometry x="293" y="3970" width="133.25" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-84" value="&lt;b&gt;Note: &lt;/b&gt;防止多次订阅相同的主题：连接Seesion建立时给客户端返回一个订阅ID，后续客户端的订阅必须携带当前ID并强制校验，将多个订阅主题放到一个订阅请求中，支持批量订阅" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="84.25" y="2900" width="205.5" height="80" as="geometry" />
+          <mxGeometry x="45.5" y="3660" width="205.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpE9AdbBCb5Pv3n_fEv3-85" target="RpE9AdbBCb5Pv3n_fEv3-87">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-85" value="利用DefaultMessagingManager适配订阅主题，并利用其Provider进行数据订阅" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="325.75" y="3279" width="146.25" height="61" as="geometry" />
+          <mxGeometry x="287" y="4039" width="146.25" height="61" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-87" value="当SubscriptionProvider接受到实时消息时，将消息利用连接session发送到客户端" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="323.75" y="3382" width="151.25" height="60" as="geometry" />
+          <mxGeometry x="285" y="4142" width="151.25" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-90" value="&lt;div style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-size: 9.8pt;&quot;&gt;public interface SubscriptionProvider &lt;span style=&quot;color:#cc7832;&quot;&gt;extends &lt;/span&gt;Ordered {&lt;br&gt;    String &lt;span style=&quot;color:#ffc66d;&quot;&gt;id&lt;/span&gt;()&lt;span style=&quot;color:#cc7832;&quot;&gt;;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;    &lt;/span&gt;String &lt;span style=&quot;color:#ffc66d;&quot;&gt;name&lt;/span&gt;()&lt;span style=&quot;color:#cc7832;&quot;&gt;;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;    &lt;/span&gt;String[] &lt;span style=&quot;color:#ffc66d;&quot;&gt;getTopicPattern&lt;/span&gt;()&lt;span style=&quot;color:#cc7832;&quot;&gt;;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;    &lt;/span&gt;Flux&amp;lt;?&amp;gt; &lt;span style=&quot;color:#ffc66d;&quot;&gt;subscribe&lt;/span&gt;(SubscribeRequest request)&lt;span style=&quot;color:#cc7832;&quot;&gt;;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color:#bbb529;&quot;&gt;@Override&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#bbb529;&quot;&gt;   &lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;default int &lt;/span&gt;&lt;span style=&quot;color:#ffc66d;&quot;&gt;getOrder&lt;/span&gt;(){&lt;br&gt;        &lt;span style=&quot;color:#cc7832;&quot;&gt;return &lt;/span&gt;Integer.&lt;span style=&quot;color:#9876aa;font-style:italic;&quot;&gt;MAX_VALUE&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;    &lt;/span&gt;}&lt;br&gt;}&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="-27.5" y="3190" width="325" height="160" as="geometry" />
+          <mxGeometry x="-66.25" y="3950" width="325" height="160" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-98" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" edge="1" parent="1" source="RpE9AdbBCb5Pv3n_fEv3-94" target="RpE9AdbBCb5Pv3n_fEv3-97">
           <mxGeometry relative="1" as="geometry" />
@@ -521,7 +521,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-94" value="网络组件消息订阅调试" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="745.25" y="3000" width="134.75" height="20" as="geometry" />
+          <mxGeometry x="706.5" y="3760" width="134.75" height="20" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-102" value="" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;align=left;" edge="1" parent="1" source="RpE9AdbBCb5Pv3n_fEv3-97" target="RpE9AdbBCb5Pv3n_fEv3-101">
           <mxGeometry relative="1" as="geometry" />
@@ -530,55 +530,57 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-97" value="TCP/UDP" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="910" y="2940" width="70" height="20" as="geometry" />
+          <mxGeometry x="871.25" y="3700" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-101" value="订阅receive消息" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=left;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="1035" y="2900" width="130" height="30" as="geometry" />
+          <mxGeometry x="996.25" y="3660" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-103" value="发送消息" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=left;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="1035" y="2960" width="90" height="30" as="geometry" />
+          <mxGeometry x="996.25" y="3720" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-107" value="MQTT，COAP" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="910" y="2986" width="90" height="15" as="geometry" />
+          <mxGeometry x="871.25" y="3746" width="90" height="15" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-109" value="设备告警日志订阅" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="745.25" y="3050" width="106" height="25" as="geometry" />
+          <mxGeometry x="706.5" y="3810" width="106" height="25" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-111" value="设备实时数据订阅" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="745.25" y="3106" width="114.75" height="19" as="geometry" />
+          <mxGeometry x="706.5" y="3866" width="114.75" height="19" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-113" value="设备规则节点调试订阅" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="745.25" y="3158" width="134.75" height="20" as="geometry" />
+          <mxGeometry x="706.5" y="3918" width="134.75" height="20" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-115" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RpE9AdbBCb5Pv3n_fEv3-113" target="RpE9AdbBCb5Pv3n_fEv3-113">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-118" value="HTTP" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="910" y="3030" width="70" height="15" as="geometry" />
+          <mxGeometry x="871.25" y="3790" width="70" height="15" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-121" value="消息通知订阅" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="745.25" y="3211" width="96.75" height="20" as="geometry" />
+          <mxGeometry x="706.5" y="3971" width="96.75" height="20" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-132" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpE9AdbBCb5Pv3n_fEv3-127" target="RpE9AdbBCb5Pv3n_fEv3-128">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-127" value="设备告警" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="-105" y="1580" width="80" height="65" as="geometry" />
+          <mxGeometry x="-335" y="1785" width="80" height="65" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-134" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpE9AdbBCb5Pv3n_fEv3-128" target="RpE9AdbBCb5Pv3n_fEv3-133">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-128" value="添加告警配置" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-115" y="1685" width="100" height="40" as="geometry" />
+          <mxGeometry x="-345" y="1890" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-136" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpE9AdbBCb5Pv3n_fEv3-133" target="RpE9AdbBCb5Pv3n_fEv3-135">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-133" value="启动告警" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="1765" width="110" height="30" as="geometry" />
+          <mxGeometry x="-350" y="1970" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RpE9AdbBCb5Pv3n_fEv3-139" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpE9AdbBCb5Pv3n_fEv3-135" target="RpE9AdbBCb5Pv3n_fEv3-138">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="RpE9AdbBCb5Pv3n_fEv3-139" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpE9AdbBCb5Pv3n_fEv3-135">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="2150" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-141" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpE9AdbBCb5Pv3n_fEv3-135" target="RpE9AdbBCb5Pv3n_fEv3-140">
           <mxGeometry relative="1" as="geometry" />
@@ -587,10 +589,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-135" value="开启事件监听" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-125" y="1835" width="120" height="60" as="geometry" />
+          <mxGeometry x="-355" y="2040" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RpE9AdbBCb5Pv3n_fEv3-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RpE9AdbBCb5Pv3n_fEv3-138" target="RpE9AdbBCb5Pv3n_fEv3-144">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="RpE9AdbBCb5Pv3n_fEv3-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="RpE9AdbBCb5Pv3n_fEv3-144">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="2210" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-138" value="定时功能调用响应监听" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="10" y="1945" width="120" height="60" as="geometry" />
@@ -599,54 +603,54 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-140" value="实时上数监听" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-125" y="1945" width="120" height="60" as="geometry" />
+          <mxGeometry x="-355" y="2150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RpE9AdbBCb5Pv3n_fEv3-142">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-130" y="2305" as="targetPoint" />
+            <mxPoint x="-360" y="2510" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-200" y="2305" />
+              <mxPoint x="-430" y="2510" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-142" value="设备状态上数监听" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-260" y="1945" width="120" height="60" as="geometry" />
+          <mxGeometry x="-490" y="2150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-148" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpE9AdbBCb5Pv3n_fEv3-144" target="RpE9AdbBCb5Pv3n_fEv3-147">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-144" value="EL表达式处理：校验通过或失败" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-125" y="2055" width="120" height="60" as="geometry" />
+          <mxGeometry x="-355" y="2260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-150" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpE9AdbBCb5Pv3n_fEv3-147" target="RpE9AdbBCb5Pv3n_fEv3-149">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-147" value="根据配置的时间防抖，次数防抖处理数据： 没有配置直接放过，配置窗口的，需要根据窗口规则过滤数据" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-136" y="2175" width="142" height="70" as="geometry" />
+          <mxGeometry x="-366" y="2380" width="142" height="70" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-152" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpE9AdbBCb5Pv3n_fEv3-149" target="RpE9AdbBCb5Pv3n_fEv3-151">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-149" value="获取告警和触发器状态" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-129" y="2295" width="128" height="30" as="geometry" />
+          <mxGeometry x="-359" y="2500" width="128" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-154" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpE9AdbBCb5Pv3n_fEv3-151" target="RpE9AdbBCb5Pv3n_fEv3-153">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-151" value="根据数据校验结果和当前的状态更新告警和触发器状态。同时根据是否连续告警，触发周期等配置过滤告警日志，" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-127.5" y="2355" width="125" height="80" as="geometry" />
+          <mxGeometry x="-357.5" y="2560" width="125" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-156" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpE9AdbBCb5Pv3n_fEv3-153" target="RpE9AdbBCb5Pv3n_fEv3-155">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-153" value="日志数据映射处理" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-119.5" y="2477" width="107.5" height="30" as="geometry" />
+          <mxGeometry x="-349.5" y="2682" width="107.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-158" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpE9AdbBCb5Pv3n_fEv3-155" target="RpE9AdbBCb5Pv3n_fEv3-157">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-155" value="通知模本处理" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-119.5" y="2545" width="107.5" height="30" as="geometry" />
+          <mxGeometry x="-349.5" y="2750" width="107.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-160" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpE9AdbBCb5Pv3n_fEv3-157" target="RpE9AdbBCb5Pv3n_fEv3-159">
           <mxGeometry relative="1" as="geometry" />
@@ -658,13 +662,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-157" value="执行动作前置过滤：恢复日志执行，告警日执行" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-119.75" y="2615" width="108.75" height="50" as="geometry" />
+          <mxGeometry x="-349.75" y="2820" width="108.75" height="50" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-159" value="设备功能联动执行" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="2705" width="108.75" height="50" as="geometry" />
+          <mxGeometry x="-410" y="2910" width="108.75" height="50" as="geometry" />
         </mxCell>
         <mxCell id="RpE9AdbBCb5Pv3n_fEv3-163" value="通知配置执行" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="2705" width="108.75" height="50" as="geometry" />
+          <mxGeometry x="-290" y="2910" width="108.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RpE9AdbBCb5Pv3n_fEv3-165" value="搜索服务" style="ellipse;whiteSpace=wrap;html=1;align=center;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};treeFolding=1;treeMoving=1;" vertex="1" parent="1">
+          <mxGeometry x="314.13" y="1690" width="90" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="RpE9AdbBCb5Pv3n_fEv3-170" value="事件总线方案设计" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="78.25" y="4490" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RpE9AdbBCb5Pv3n_fEv3-171" value="消息统计方案设计" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="78.25" y="4620" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
