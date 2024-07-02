@@ -1,9 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2024-05-23T01:29:46.694Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.4.6" etag="KMkicjwvinSKnpS1GoYa" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-02T07:42:51.358Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="5jxWaBuzkIAN4WNUt-fU" version="24.6.4" type="github">
   <diagram name="第 1 页" id="5JkBRk-FO56IJwVgcIqj">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="q5tciKdKlLlfa13yz7oG-3" value="PLC 设备" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="150" y="160" width="100" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="q5tciKdKlLlfa13yz7oG-6" value="采集数据" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;curved=0;exitX=0.48;exitY=0.288;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="q5tciKdKlLlfa13yz7oG-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="329.5" y="300" as="sourcePoint" />
+            <mxPoint x="199.5" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q5tciKdKlLlfa13yz7oG-9" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="329.5" y="280" as="sourcePoint" />
+            <mxPoint x="459.5" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q5tciKdKlLlfa13yz7oG-10" value="上报数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q5tciKdKlLlfa13yz7oG-9">
+          <mxGeometry x="0.3154" y="2" relative="1" as="geometry">
+            <mxPoint x="-25" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q5tciKdKlLlfa13yz7oG-5" value="数采网关" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="100" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="q5tciKdKlLlfa13yz7oG-7" value="边缘规则链" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="410" y="160" width="100" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="q5tciKdKlLlfa13yz7oG-8" value="1. 启动边缘规则链&lt;div&gt;2. 启动MQTT Server&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. 用户配置规则链处理数据&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4. 启动规则链&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="210" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q5tciKdKlLlfa13yz7oG-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="461" y="340" as="targetPoint" />
+            <mxPoint x="460" y="280" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="540" y="280" />
+              <mxPoint x="540" y="340" />
+              <mxPoint x="461" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q5tciKdKlLlfa13yz7oG-12" value="规则链订阅内部消息&lt;div&gt;规则链处理消息&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="290" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q5tciKdKlLlfa13yz7oG-13" value="应用" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="590" y="160" width="100" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="q5tciKdKlLlfa13yz7oG-15" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1" target="q5tciKdKlLlfa13yz7oG-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="360" as="sourcePoint" />
+            <mxPoint x="590" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q5tciKdKlLlfa13yz7oG-16" value="转发数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q5tciKdKlLlfa13yz7oG-15">
+          <mxGeometry x="0.3154" y="2" relative="1" as="geometry">
+            <mxPoint x="-25" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
