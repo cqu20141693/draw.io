@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2024-07-11T09:47:13.999Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.6.4" etag="6eQGfhrOnHo6OhHaA4So" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-15T10:24:55.496Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="HLCO7mLQbHEHRWOJbYgP" version="24.6.5" type="github">
   <diagram name="第 1 页" id="KPa0spre10BV23PreFPN">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VRjen7JTUJrRjUqwProS-1" value="Mongo 分库分表：&amp;nbsp;&lt;div&gt;主表都配置了TTL 能力，对于迁移的数据，时间过了就自动清理&lt;/div&gt;&lt;div&gt;对于迁移表可以支持不加TTL,实现数据全量；&lt;/div&gt;&lt;div&gt;支持数据切表，冷热数据&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="360" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-2" value="配置服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="170" y="120" width="60" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-4" value="读路由服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="260" y="120" width="70" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-5" value="写路由服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="411" y="110" width="70" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-6" value="数据迁移服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="523" y="110" width="70" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-8" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="320" as="sourcePoint" />
+            <mxPoint x="200" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160.5" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-7" value="事件" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="70" y="120" width="60" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-9" value="新增路由配置：&lt;div&gt;将某个产品写入新表：&lt;/div&gt;&lt;div&gt;迁移时间戳：迁移服务会进行迁移&lt;/div&gt;&lt;div&gt;读主表：读取路由读取标识&lt;/div&gt;&lt;div&gt;写主表：写路由是否双写&lt;/div&gt;&lt;div&gt;迁移状态：保证只有一个迁移&lt;/div&gt;&lt;div&gt;结束时间：标识切表时间点&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="165" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-10" value="创建迁移任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="85" y="290" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-11" value="定时检查配置任务：&lt;div&gt;发现迁移任务：开始迁移&lt;/div&gt;&lt;div&gt;支持全量迁移和部分迁移&lt;/div&gt;&lt;div&gt;迁移完成：更新配置状态&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="165" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-12" value="1. 定时任务检查&lt;div&gt;配置信息&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="170" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-13" value="2. 查询数据时，&lt;div&gt;查看路由配置：&lt;div&gt;不存在独立配置：&lt;/div&gt;&lt;div&gt;直接读取主表&lt;/div&gt;&lt;div&gt;存在独立配置：&lt;/div&gt;&lt;div&gt;如果只存在一个配置：&lt;/div&gt;&lt;div&gt;如果迁移中，&lt;span style=&quot;background-color: initial;&quot;&gt;读取主表&lt;/span&gt;&lt;/div&gt;&lt;div&gt;如果迁移完成：读取配置表&lt;/div&gt;&lt;/div&gt;&lt;div&gt;如果存在读个配置：&lt;/div&gt;&lt;div&gt;根据时间排序配置&lt;/div&gt;&lt;div&gt;选择配置表进行查询&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="244" y="210" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-14" value="2. 写入数据时，&lt;div&gt;查看路由配置：&lt;/div&gt;&lt;div&gt;不存在独立配置，写入主表&lt;/div&gt;&lt;div&gt;存在独立配置：&lt;/div&gt;&lt;div&gt;如果只存在一个配置：&lt;/div&gt;&lt;div&gt;如果迁移中：双写主表和指定表&lt;/div&gt;&lt;div&gt;如果迁移完成：写入执行配置表&lt;/div&gt;&lt;div&gt;如果存在多个配置：表示切表&lt;/div&gt;&lt;div&gt;数据写入最新表&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="245" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-15" value="1. 定时任务检查&lt;div&gt;配置信息&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="180" width="110" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
