@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-15T09:10:22.678Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="b5ld2HLLdIHx-nZ3Jc-n" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-15T09:56:58.810Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="wHvMCuf6-0FjziFEgGzz" version="24.6.5" type="github">
   <diagram id="iBte2pI2jz2rYQuNefFY" name="第 1 页">
     <mxGraphModel dx="3435" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2377,7 +2377,7 @@
           <mxGeometry x="-2094" y="3775" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RufAALZbMxp-N3Yz3ua1-47" value="&lt;div&gt;DefaultTask&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="-1761" y="3497" width="73" height="430" as="geometry" />
+          <mxGeometry x="-1761" y="3497" width="73" height="523" as="geometry" />
         </mxCell>
         <mxCell id="RufAALZbMxp-N3Yz3ua1-48" value="start: 启动任务&lt;div&gt;reload: 重启任务&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1746" y="3543.5" width="110" height="40" as="geometry" />
@@ -2415,6 +2415,46 @@
         </mxCell>
         <mxCell id="RufAALZbMxp-N3Yz3ua1-57" value="1. 首先判断集群节点是否存在&lt;div&gt;执行器调度任务，同时创建本地任务&lt;/div&gt;&lt;div&gt;2. 执行远程任务调度：rpc 调用其他节点本地方法，&lt;/div&gt;&lt;div&gt;通过本地调度器获取任务，执行api&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1946.5" y="3890" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RufAALZbMxp-N3Yz3ua1-59" value="事件总线" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-2360" y="3980" width="60" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="RufAALZbMxp-N3Yz3ua1-62" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2208" y="4192" as="sourcePoint" />
+            <mxPoint x="-2330.5" y="4192" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RufAALZbMxp-N3Yz3ua1-66" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2208" y="4223" as="sourcePoint" />
+            <mxPoint x="-2330.5" y="4223" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RufAALZbMxp-N3Yz3ua1-60" value="规则节点" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="-2237" y="3980" width="59" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="RufAALZbMxp-N3Yz3ua1-61" value="启动规则节点：订阅事件(自生产事件)&lt;div&gt;1. 订阅事件总线业务事件&lt;/div&gt;&lt;div&gt;2. 订阅事件总线发送到下一个节点事件&lt;/div&gt;&lt;div&gt;3. 订阅外部事件(kafka...)&lt;/div&gt;&lt;div&gt;4. 定时事件，模拟器事件&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;对于事件订阅中，启动大量的规则节点，&lt;/div&gt;&lt;div&gt;会产生大量的订阅任务，此时需要考虑&lt;/div&gt;&lt;div&gt;线程和对象实例: 线程可以通过固定的线程池调度&lt;/div&gt;&lt;div&gt;任务执行，任务的对象实例都是&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2246" y="4017" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="RufAALZbMxp-N3Yz3ua1-64" value="任务订阅业务事件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2329" y="4169" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RufAALZbMxp-N3Yz3ua1-67" value="任务订阅上游节点&lt;div&gt;规则事件&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2324.5" y="4199" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RufAALZbMxp-N3Yz3ua1-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2330" y="4290" as="targetPoint" />
+            <mxPoint x="-2330" y="4230" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-2250.5" y="4230" />
+              <mxPoint x="-2250.5" y="4290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RufAALZbMxp-N3Yz3ua1-71" value="1. 构建订阅树和方法回调&lt;div&gt;2. publish 消息，通过调度线程池&lt;/div&gt;&lt;div&gt;调度回调方法，并做统计&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-2381" y="4233" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
