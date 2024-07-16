@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2024-07-15T10:24:55.496Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="HLCO7mLQbHEHRWOJbYgP" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-16T01:15:02.823Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="vKZfR_nnhqtT5-F4RKFJ" version="24.6.5" type="github">
   <diagram name="第 1 页" id="KPa0spre10BV23PreFPN">
     <mxGraphModel dx="954" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="VRjen7JTUJrRjUqwProS-1" value="Mongo 分库分表：&amp;nbsp;&lt;div&gt;主表都配置了TTL 能力，对于迁移的数据，时间过了就自动清理&lt;/div&gt;&lt;div&gt;对于迁移表可以支持不加TTL,实现数据全量；&lt;/div&gt;&lt;div&gt;支持数据切表，冷热数据&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="VRjen7JTUJrRjUqwProS-1" value="&lt;b&gt;Mongo 分库分表：&amp;nbsp;&lt;/b&gt;&lt;div&gt;主表都配置了TTL 能力，对于迁移的数据，时间过了就自动清理&lt;/div&gt;&lt;div&gt;对于迁移表可以支持不加TTL,实现数据全量；&lt;/div&gt;&lt;div&gt;支持数据切表，冷热数据&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="60" y="40" width="360" height="70" as="geometry" />
         </mxCell>
         <mxCell id="VRjen7JTUJrRjUqwProS-2" value="配置服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
@@ -51,6 +51,63 @@
         </mxCell>
         <mxCell id="VRjen7JTUJrRjUqwProS-15" value="1. 定时任务检查&lt;div&gt;配置信息&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="390" y="180" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-16" value="&lt;b&gt;Pulsar Starter 设计：&lt;/b&gt;&lt;div&gt;支持PulsarTemplate,PulsarStringTemplate&lt;/div&gt;&lt;div&gt;支持注解订阅pulsar 消息&lt;/div&gt;&lt;div&gt;支持多种消息提交模式：手动，count_time,立即&lt;/div&gt;&lt;div&gt;支持容器生命周期管理，消费者优雅停&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="49" y="510" width="271" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-20" value="@EnablePulsar/&lt;div&gt;@PulsarSubscribe&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="60" y="640" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-26" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="234" y="870" as="sourcePoint" />
+            <mxPoint x="369" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-21" value="PulsarAnnotation&lt;div&gt;Processor&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="185" y="640" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-22" value="1. 使用EnablePulsar注解：&lt;div&gt;开启注解扫描Processor&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2. PulsarSubscribe 注解：&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;用于订阅pulsar topic 消息&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="25" y="700" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-23" value="当注册了Processor bean:&lt;div&gt;1. 实现BeanPostProcessor&lt;/div&gt;&lt;div&gt;2. 扫描所有的bean, 并读取其方法&lt;/div&gt;&lt;div&gt;3. 找到使用PulsarSubscribe 注解&lt;/div&gt;&lt;div&gt;4. 构建SubscirbeHolder&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135" y="760" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-29" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1" target="VRjen7JTUJrRjUqwProS-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="369.5" y="890" as="sourcePoint" />
+            <mxPoint x="494.5" y="890" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-24" value="SubscribeHolder&lt;div&gt;Registrar&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="320" y="640" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-27" value="5. 注册Holder到注册中心" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="840" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-28" value="&lt;div&gt;PulsarContainer&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="472" y="640" width="100" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-31" value="监听ApplicationReadyEvent：&lt;div&gt;注册Holder到container&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="292" y="700" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-32" value="6. 注册Holders 到&lt;div&gt;contianer&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-33" value="1. 实现SmartInitializingSingleton：&lt;div&gt;初始化完成后根据配置创建Producer&lt;/div&gt;&lt;div&gt;2. 实现SmartLifecycle&lt;/div&gt;&lt;div&gt;管理容器的生命周期，在停止时，&lt;/div&gt;&lt;div&gt;停止消费者继续进行消费，&lt;/div&gt;&lt;div&gt;同时提交当前已经消费的数据&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. 容器具有配置属性：Ack提交策略。&lt;/div&gt;&lt;div&gt;默认是count_time;也可配置逐条立即提交&lt;/div&gt;&lt;div&gt;同时支持手动提交：&lt;/div&gt;&lt;div&gt;注解方法一个参数，容器提交&lt;/div&gt;&lt;div&gt;注解方法两个参数，参数一是消费者&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="680" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-34" value="将Holder 转换为pulsar消费者，&lt;div&gt;并代理方法进行发射调用&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="920" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-35" value="ProducerTemplate" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="650" y="640" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-36" value="依赖container:&lt;div&gt;通过container 获取producer&lt;/div&gt;&lt;div&gt;适配发送接口实现消息发送&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="710" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
