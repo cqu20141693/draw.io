@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T01:16:02.843Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="O20lCKZGjROQY6HHvSUZ" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-17T10:06:57.884Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Y2Zp17ea07YAVY7LXDTT" version="24.6.5" type="github">
   <diagram name="第 1 页" id="KPa0spre10BV23PreFPN">
     <mxGraphModel dx="954" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -108,6 +108,45 @@
         </mxCell>
         <mxCell id="VRjen7JTUJrRjUqwProS-36" value="依赖container:&lt;div&gt;通过container 获取producer&lt;/div&gt;&lt;div&gt;适配发送接口实现消息发送&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="670" y="710" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-37" value="ES 选主流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="54" y="1005" width="81" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VRjen7JTUJrRjUqwProS-38" target="VRjen7JTUJrRjUqwProS-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-38" value="当es 重启或者&lt;div&gt;mster节崩溃&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1050" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VRjen7JTUJrRjUqwProS-39" target="VRjen7JTUJrRjUqwProS-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-39" value="发起广播投票自己为master" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="1050" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VRjen7JTUJrRjUqwProS-40" target="VRjen7JTUJrRjUqwProS-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-40" value="是否为master资格节点" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="161" y="1035" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-45" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1048" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VRjen7JTUJrRjUqwProS-46" target="VRjen7JTUJrRjUqwProS-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-46" value="版本高，&lt;div&gt;ID节点小&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1035" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VRjen7JTUJrRjUqwProS-48" target="VRjen7JTUJrRjUqwProS-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-48" value="成为master" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="538" y="1050" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VRjen7JTUJrRjUqwProS-50" value="通知其他节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="1050" width="60" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
