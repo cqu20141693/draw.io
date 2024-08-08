@@ -267,11 +267,14 @@
         <mxCell id="9D-Lmr6SBzClbS9fGLFk-65" value="component" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
           <mxGeometry x="1508" y="550" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9D-Lmr6SBzClbS9fGLFk-70" value="&lt;b style=&quot;text-wrap: nowrap;&quot;&gt;领域模型层必须&lt;/b&gt;&lt;b style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;依赖独立，领域服务通过&lt;/b&gt;&lt;div&gt;&lt;b style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;处理领域事件转换聚合根；&lt;/b&gt;&lt;b style=&quot;background-color: initial; text-wrap: nowrap;&quot;&gt;同时定义SPI&lt;/b&gt;&lt;b style=&quot;background-color: initial; text-wrap: nowrap;&quot;&gt;解耦实现&lt;/b&gt;&lt;/div&gt;" style="shape=note;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="9D-Lmr6SBzClbS9fGLFk-70" value="领域模型层必须依赖独立，领域服务通过&#xa;处理领域事件转换聚合根；同时定义SPI解耦实现" style="shape=note;backgroundOutline=1;darkOpacity=0.05;align=left;whiteSpace=wrap;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1060" y="332" width="120" height="88" as="geometry" />
         </mxCell>
-        <mxCell id="6UzdkExmgidhG1JHYg0t-1" value="领域事件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
+        <mxCell id="6UzdkExmgidhG1JHYg0t-1" value="领域事件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
           <mxGeometry x="1519" y="429" width="59" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T2ZMbrgRlUznVUn5AD8o-2" value="&lt;b&gt;聚合根： 将查询，业务处理和修改分离，先查询聚合数据，再业务处理，再事物进行数据修改&lt;/b&gt;" style="shape=note;backgroundOutline=1;darkOpacity=0.05;align=left;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="440" width="120" height="88" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
