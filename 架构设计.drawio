@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.8">
   <diagram name="第 1 页" id="ucJ6enQ3myS1yw3ZkuCO">
-    <mxGraphModel dx="954" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1060" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -217,43 +217,52 @@
         <mxCell id="deLBg8jlPW3kkQXr_3VO-20" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;OWL&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="620" y="508.5" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="deLBg8jlPW3kkQXr_3VO-22" value="OWL:（Organised Warehouse Logistics Services system）全称“有组织”的仓储物流协调服务平台，包含四大子系统&#xa;VMS（Vehicle Visitor Management system），车辆入场协同管理系统，&#xa;WMS（Warehouse Management system ），仓储管理系统，&#xa;LES（Logistics Execution system），物流拉动执行系统，&#xa;WCS（Warehouse Control system），仓储设备控制系统，旨在为工厂提供一整套从入厂，厂内到出厂的数字化转型解决方案，核心是“有组织”，价值是，通过一套系统管理全厂，全域调度，解决客户多系统壁垒，实现工厂数据，信息互联互通，降本增效" style="shape=note;size=15;spacingLeft=5;align=left;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="841" y="220" width="800" height="90" as="geometry" />
+        <mxCell id="deLBg8jlPW3kkQXr_3VO-22" value="OWL:（Organised Warehouse Logistics Services system）全称“有组织”的仓储物流协调服务平台，包含四大子系统&#xa;VMS（Vehicle Visitor Management system），车辆入场协同管理系统，&#xa;WMS（Warehouse Management system ），仓储管理系统，&#xa;LES（Logistics Execution system），物流拉动执行系统，&#xa;WCS（Warehouse Control system），仓储设备控制系统，&#xa;&#xa;EMS： 能源管理系统：电解铝，电池，燃煤&#xa;QMS:  质量关系系统：包括采购质量，生成过程质量，入库质量，出库质量管理&#xa;APS： 计划排产：比如燃煤发电&#xa;MES:  生产执行系统&#xa;EAM： 设备管理：设备巡检，设备维修，设备采购" style="shape=note;size=15;spacingLeft=5;align=left;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="540" y="80" width="478.5" height="176" as="geometry" />
         </mxCell>
-        <mxCell id="deLBg8jlPW3kkQXr_3VO-23" value="" style="edgeStyle=none;html=1;endArrow=none;rounded=0;labelBackgroundColor=none;dashed=1;exitX=0.5;exitY=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="deLBg8jlPW3kkQXr_3VO-22" target="deLBg8jlPW3kkQXr_3VO-10" edge="1">
+        <mxCell id="deLBg8jlPW3kkQXr_3VO-23" value="" style="edgeStyle=none;html=1;endArrow=none;rounded=0;labelBackgroundColor=none;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="deLBg8jlPW3kkQXr_3VO-22" target="deLBg8jlPW3kkQXr_3VO-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1172" y="518.5" as="targetPoint" />
             <mxPoint x="1483" y="478.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AOYH0ofomih47d9FnGEl-1" value="CRM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="AOYH0ofomih47d9FnGEl-1" value="CRM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="354" y="438.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AOYH0ofomih47d9FnGEl-2" value="SRM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="AOYH0ofomih47d9FnGEl-2" value="SRM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="471.5" y="438.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AOYH0ofomih47d9FnGEl-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="AOYH0ofomih47d9FnGEl-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="591.5" y="438.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AOYH0ofomih47d9FnGEl-4" value="ERP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="AOYH0ofomih47d9FnGEl-4" value="ERP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="628" y="453.5" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AOYH0ofomih47d9FnGEl-7" value="工业物联网平台项目： 项目的定位在智能制造中作为数据基座，提供边缘OT/IT业务数据采集，数据上云，平台数据存储，数据处理，数据展示和数据流转业务系统。&#xa;在边缘数据采集能力上提供了数据采集网关服务，主要的难点是接入各种各样的数据协议，采集设备和系统数据。&#xa;在云平台主要提供了数据的接收，处理，存储，转发和展示。难点是实时接收采集的设备数据，QOS在数万到十万不等；第二个难点需要实时进行数据解析，校验，和业务处理第三个难点是实时数据需要实时存储(存储方案选型和设计)。数据实时转发多场景，和稳定性。" style="shape=note;size=15;spacingLeft=5;align=left;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="30" y="290" width="280" height="200" as="geometry" />
+        <mxCell id="AOYH0ofomih47d9FnGEl-7" value="工业物联网平台项目： 项目的定位在智能制造中作为数据基座，解决的问题是数据采集难，数据上云难，解决数据孤岛问题和设备监控控制。通过数字化自动化，减少人工成本，备件成本和停产损失。&#xa;项目分了三个字产品。提供边缘OT/IT业务数据采集控制，数据上云；提供物联网平台接收数据，平台数据存储，数据处理，数据流转业务系统；提供了组态是心啊数据展示和设备控制。&#xa;边缘数据采集产品：提供了数据采集网关服务，主要的难点是接入各种各样的数据协议，采集设备和系统数据。特别边缘计算。&#xa;云平台产品主要提供了数据的接收，处理，存储，转发。难点是实时接收采集的设备数据，QOS在数万到十万不等；第二个难点需要实时进行数据解析，校验，和业务处理第三个难点是实时数据需要实时存储(存储方案选型和设计)。数据实时转发多场景，和稳定性。&#xa;组态产品：提供了数据源管理和大屏绘制，数据展示和设备控制能力。通过实时接入iot数据源，实时监控设备/产线状态；通过数据库数据源，可以查询报表看历史趋势和汇总记录。通过接入边缘网关实时控制设备。&#xa;" style="shape=note;size=15;spacingLeft=5;align=left;whiteSpace=wrap;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="21" y="40" width="359" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="AOYH0ofomih47d9FnGEl-8" value="ERP : 金蝶，拥有，SAP&#xa;" style="shape=note;size=15;spacingLeft=5;align=left;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="12" y="508.5" width="230" height="40" as="geometry" />
+        <mxCell id="AOYH0ofomih47d9FnGEl-8" value="CRM: 客户关系管理系统：商机，线索&#xa;SRM: 供应商关系管理系统：资质，信誉&#xa;ERP : 金蝶，拥有，SAP&#xa;" style="shape=note;size=15;spacingLeft=5;align=left;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="417.5" y="290" width="231" height="76" as="geometry" />
         </mxCell>
-        <mxCell id="AOYH0ofomih47d9FnGEl-9" value="" style="edgeStyle=none;html=1;endArrow=none;rounded=0;labelBackgroundColor=none;dashed=1;exitX=0.5;exitY=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" source="AOYH0ofomih47d9FnGEl-8" parent="1" target="deLBg8jlPW3kkQXr_3VO-11">
+        <mxCell id="AOYH0ofomih47d9FnGEl-9" value="" style="edgeStyle=none;html=1;endArrow=none;rounded=0;labelBackgroundColor=none;dashed=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="AOYH0ofomih47d9FnGEl-8" target="AOYH0ofomih47d9FnGEl-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="120" y="615" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AOYH0ofomih47d9FnGEl-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="890" y="438.5" width="120" height="60" as="geometry" />
+        <mxCell id="AOYH0ofomih47d9FnGEl-10" value="BI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="804" y="430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AOYH0ofomih47d9FnGEl-11" value="BI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="934" y="453.5" width="30" height="30" as="geometry" />
+        <mxCell id="2Ufif9IzzFKeSmk-fhTN-1" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;EMS&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="800" y="508.5" width="91" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Ufif9IzzFKeSmk-fhTN-2" value="" style="edgeStyle=none;html=1;endArrow=none;rounded=0;labelBackgroundColor=none;dashed=1;exitX=0.5;exitY=1;entryX=0.005;entryY=0.137;entryDx=0;entryDy=0;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="AOYH0ofomih47d9FnGEl-7" target="74LUju0W-xpcsgV9gZzd-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="169" y="736.5" as="targetPoint" />
+            <mxPoint x="231" y="394.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Ufif9IzzFKeSmk-fhTN-3" value="DI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="924" y="430" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
