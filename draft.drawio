@@ -983,115 +983,115 @@
         <mxCell id="ATmI5N768Sz2aq4eAoEy-152" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ATmI5N768Sz2aq4eAoEy-11" target="ATmI5N768Sz2aq4eAoEy-151" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-1" value="归因分析" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-1" value="归因分析" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="125" y="5778" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kwOdSFgMRxI6n_Wt5eh6-2" target="kwOdSFgMRxI6n_Wt5eh6-3">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kwOdSFgMRxI6n_Wt5eh6-2" target="kwOdSFgMRxI6n_Wt5eh6-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-5" value="查询指标接口(原子指标+原子指标派生指标)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kwOdSFgMRxI6n_Wt5eh6-4">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-5" value="查询指标接口(原子指标+原子指标派生指标)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kwOdSFgMRxI6n_Wt5eh6-4" vertex="1" connectable="0">
           <mxGeometry x="-0.1333" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-2" value="用户发起归因" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-2" value="用户发起归因" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="182.25" y="5890" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-8" value="查询分析维度" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kwOdSFgMRxI6n_Wt5eh6-3" target="kwOdSFgMRxI6n_Wt5eh6-7">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-8" value="查询分析维度" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kwOdSFgMRxI6n_Wt5eh6-3" target="kwOdSFgMRxI6n_Wt5eh6-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-3" value="选择指标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-3" value="选择指标" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="182.25" y="6030" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-6" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-6" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="345" y="5738" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kwOdSFgMRxI6n_Wt5eh6-7" target="kwOdSFgMRxI6n_Wt5eh6-9">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kwOdSFgMRxI6n_Wt5eh6-7" target="kwOdSFgMRxI6n_Wt5eh6-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-7" value="选择维度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-7" value="选择维度" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="182.25" y="6144" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kwOdSFgMRxI6n_Wt5eh6-9" target="kwOdSFgMRxI6n_Wt5eh6-15">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kwOdSFgMRxI6n_Wt5eh6-9" target="kwOdSFgMRxI6n_Wt5eh6-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-9" value="选择时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-9" value="选择时间" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="182.25" y="6240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-11" value="注意可用统计周期和&lt;div&gt;默认统计周期&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;周时间和展示&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-11" value="注意可用统计周期和&lt;div&gt;默认统计周期&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;周时间和展示&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="24" y="6220" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kwOdSFgMRxI6n_Wt5eh6-12" target="kwOdSFgMRxI6n_Wt5eh6-22">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kwOdSFgMRxI6n_Wt5eh6-12" target="kwOdSFgMRxI6n_Wt5eh6-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-24" value="ASK_REASON_ANALY" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kwOdSFgMRxI6n_Wt5eh6-23">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-24" value="ASK_ATTRIBUTION_ANALYSIS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kwOdSFgMRxI6n_Wt5eh6-23" vertex="1" connectable="0">
           <mxGeometry x="-0.4" y="-1" relative="1" as="geometry">
             <mxPoint y="5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-12" value="问数意图理解" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-12" value="问数意图理解" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="5883" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-15" value="高级选项" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-15" value="高级选项" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="182.25" y="6350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-17" value="贡献度阈值&lt;div&gt;开启复合指标归因&lt;/div&gt;&lt;div&gt;计算JS散度&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-17" value="贡献度阈值&lt;div&gt;开启复合指标归因&lt;/div&gt;&lt;div&gt;计算JS散度&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="20" y="6323" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-18" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;过滤ID,时间&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;大于200维度值&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-18" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;过滤ID,时间&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;大于200维度值&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="39" y="6130" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-19" value="&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;前端输出归因任务&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-19" value="&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;前端输出归因任务&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" parent="1" vertex="1">
           <mxGeometry x="338" y="5853" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kwOdSFgMRxI6n_Wt5eh6-22" target="kwOdSFgMRxI6n_Wt5eh6-26">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kwOdSFgMRxI6n_Wt5eh6-22" target="kwOdSFgMRxI6n_Wt5eh6-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-22" value="思维链输出" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-22" value="思维链输出" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="5986" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-25" value="复合指标维度归因&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1. 根据指标维度聚合指标值(对比和基准)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2. 得到总值，差值，变化率&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3. 维度的基准值，对比值，差值，变化率&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4. 基准值，计算维度Δ, 计算贡献值，计算贡献率&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;5. 分别计算每个原子指标的JS 散度之和，&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;备注： 复合指标的公式中的指标不区分复合指标，&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;统一使用原子指标计算公式计算JS散度&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-25" value="复合指标维度归因&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1. 根据指标维度聚合指标值(对比和基准)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2. 得到总值，差值，变化率&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3. 维度的基准值，对比值，差值，变化率&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4. 基准值，计算维度Δ, 计算贡献值，计算贡献率&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;5. 分别计算每个原子指标的JS 散度之和，&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;备注： 复合指标的公式中的指标不区分复合指标，&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;统一使用原子指标计算公式计算JS散度&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="845" y="6172" width="290" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kwOdSFgMRxI6n_Wt5eh6-26" target="kwOdSFgMRxI6n_Wt5eh6-28">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kwOdSFgMRxI6n_Wt5eh6-26" target="kwOdSFgMRxI6n_Wt5eh6-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-30" value="指标归因" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kwOdSFgMRxI6n_Wt5eh6-29">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-30" value="指标归因" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kwOdSFgMRxI6n_Wt5eh6-29" vertex="1" connectable="0">
           <mxGeometry x="-0.275" y="-1" relative="1" as="geometry">
             <mxPoint x="11" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-26" value="调用归因分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-26" value="调用归因分析" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="6083" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kwOdSFgMRxI6n_Wt5eh6-28" target="kwOdSFgMRxI6n_Wt5eh6-33">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="kwOdSFgMRxI6n_Wt5eh6-28" target="kwOdSFgMRxI6n_Wt5eh6-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-28" value="调用归因分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-28" value="调用归因分析" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="6083" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-31" value="原子指标维度归因：&lt;div&gt;1. 根据指标维度聚合指标值(对比和基准)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2. 得到总值，差值，变化率&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3. 维度的基准值，对比之，差值，变化率&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4. 计算贡献度&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;5. 计算基准和对比占比，计算JS散度&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-31" value="原子指标维度归因：&lt;div&gt;1. 根据指标维度聚合指标值(对比和基准)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2. 得到总值，差值，变化率&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3. 维度的基准值，对比之，差值，变化率&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4. 计算贡献度&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;5. 计算基准和对比占比，计算JS散度&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="847" y="6020" width="240" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-32" value="复合指标公式归因&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1. 根据指标维度聚合指标值(对比和基准)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2. 得到总值，差值，变化率&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3. 维度的基准值，对比之，差值，变化率&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4. 基准值，计算指标&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Δ&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;, 计算贡献值，计算贡献率&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;5. 不需要计算JS散度&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-32" value="复合指标公式归因&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1. 根据指标维度聚合指标值(对比和基准)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2. 得到总值，差值，变化率&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3. 维度的基准值，对比之，差值，变化率&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4. 基准值，计算指标&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Δ&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;, 计算贡献值，计算贡献率&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center;&quot;&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;5. 不需要计算JS散度&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="847" y="6347" width="280" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kwOdSFgMRxI6n_Wt5eh6-33" target="kwOdSFgMRxI6n_Wt5eh6-35">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kwOdSFgMRxI6n_Wt5eh6-33" target="kwOdSFgMRxI6n_Wt5eh6-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-33" value="归因数据结构处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-33" value="归因数据结构处理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="6208" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kwOdSFgMRxI6n_Wt5eh6-35" target="kwOdSFgMRxI6n_Wt5eh6-37">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kwOdSFgMRxI6n_Wt5eh6-35" target="kwOdSFgMRxI6n_Wt5eh6-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-35" value="归因数据返回" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-35" value="归因数据返回" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="6208" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-37" value="总结" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-37" value="总结" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="6323" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kwOdSFgMRxI6n_Wt5eh6-15" target="kwOdSFgMRxI6n_Wt5eh6-12">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kwOdSFgMRxI6n_Wt5eh6-15" target="kwOdSFgMRxI6n_Wt5eh6-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="302" y="6380" as="sourcePoint" />
             <mxPoint x="480" y="5913" as="targetPoint" />
@@ -1101,13 +1101,208 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-40" value="发起归因" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kwOdSFgMRxI6n_Wt5eh6-39">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-40" value="发起归因" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="kwOdSFgMRxI6n_Wt5eh6-39" vertex="1" connectable="0">
           <mxGeometry x="-0.0812" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-21" value="classfiy:&amp;nbsp;&lt;div&gt;ASK_REASON&lt;/div&gt;&lt;div&gt;req_config:&lt;/div&gt;&lt;div&gt;{&quot;&#39;metric_id&quot;:&quot;&quot;,&lt;/div&gt;&lt;div&gt;&quot;dimensions&quot;:[],&lt;/div&gt;&lt;div&gt;&quot;period&quot;:&quot;&quot;,&lt;/div&gt;&lt;div&gt;&quot;base_time&quot;:&quot;&quot;,&lt;/div&gt;&lt;div&gt;&quot;compare_time&quot;:&quot;&quot;,&lt;/div&gt;&lt;div&gt;&quot;contribute_threshold&quot;:&quot;&quot;,&lt;/div&gt;&lt;div&gt;&quot;enable_complex&quot;:&quot;&quot;,&lt;/div&gt;&lt;div&gt;&quot;enable_js&quot;:&quot;&quot;,&lt;/div&gt;&lt;div&gt;&quot;dataFilters&quot;:[]&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="kwOdSFgMRxI6n_Wt5eh6-21" value="classfiy:&amp;nbsp;&lt;div&gt;ASK_REASON&lt;/div&gt;&lt;div&gt;req_config:&lt;/div&gt;&lt;div&gt;{&quot;&#39;metric_id&quot;:&quot;&quot;,&lt;/div&gt;&lt;div&gt;&quot;dimensions&quot;:[],&lt;/div&gt;&lt;div&gt;&quot;period&quot;:&quot;&quot;,&lt;/div&gt;&lt;div&gt;&quot;base_time&quot;:&quot;&quot;,&lt;/div&gt;&lt;div&gt;&quot;compare_time&quot;:&quot;&quot;,&lt;/div&gt;&lt;div&gt;&quot;contribute_threshold&quot;:&quot;&quot;,&lt;/div&gt;&lt;div&gt;&quot;enable_complex&quot;:&quot;&quot;,&lt;/div&gt;&lt;div&gt;&quot;enable_js&quot;:&quot;&quot;,&lt;/div&gt;&lt;div&gt;&quot;dataFilters&quot;:[]&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="620" y="5768" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KJM8Bw2zkL1qbc7ry21o-2" target="KJM8Bw2zkL1qbc7ry21o-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-2" value="终端提出问题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="242" y="6490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KJM8Bw2zkL1qbc7ry21o-12" target="KJM8Bw2zkL1qbc7ry21o-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KJM8Bw2zkL1qbc7ry21o-12" target="KJM8Bw2zkL1qbc7ry21o-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#CC0000;" edge="1" parent="1" source="KJM8Bw2zkL1qbc7ry21o-12" target="KJM8Bw2zkL1qbc7ry21o-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="302" y="6730" />
+              <mxPoint x="212" y="6730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KJM8Bw2zkL1qbc7ry21o-12" target="KJM8Bw2zkL1qbc7ry21o-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="382" y="6650" />
+              <mxPoint x="382" y="6620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-7" value="任务二" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KJM8Bw2zkL1qbc7ry21o-6">
+          <mxGeometry x="0.0364" relative="1" as="geometry">
+            <mxPoint x="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KJM8Bw2zkL1qbc7ry21o-12" target="KJM8Bw2zkL1qbc7ry21o-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="382" y="6650" />
+              <mxPoint x="382" y="6540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-9" value="&lt;font style=&quot;color: rgb(0, 153, 0);&quot;&gt;开启思维链：任务1&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KJM8Bw2zkL1qbc7ry21o-8">
+          <mxGeometry x="0.4189" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KJM8Bw2zkL1qbc7ry21o-12" target="KJM8Bw2zkL1qbc7ry21o-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="382" y="6650" />
+              <mxPoint x="382" y="6710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-11" value="&lt;font style=&quot;color: rgb(0, 153, 0);&quot;&gt;开启思维链：任务3&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KJM8Bw2zkL1qbc7ry21o-10">
+          <mxGeometry x="0.3727" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF3333;" edge="1" parent="1" source="KJM8Bw2zkL1qbc7ry21o-12" target="KJM8Bw2zkL1qbc7ry21o-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-33" value="&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;ASK_ATTRIBUTION_ANALYSIS&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KJM8Bw2zkL1qbc7ry21o-32">
+          <mxGeometry x="0.4658" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-12" value="问题理解人机对话Agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="242" y="6620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-13" value="调用问题理解MCP:&lt;div&gt;调用大模型实体提取和问题改写&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="522" y="6590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KJM8Bw2zkL1qbc7ry21o-21" target="KJM8Bw2zkL1qbc7ry21o-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="382" y="6834" />
+              <mxPoint x="382" y="6790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-15" value="任务1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KJM8Bw2zkL1qbc7ry21o-14">
+          <mxGeometry x="0.2549" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KJM8Bw2zkL1qbc7ry21o-21" target="KJM8Bw2zkL1qbc7ry21o-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="302" y="6930" />
+              <mxPoint x="162" y="6930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KJM8Bw2zkL1qbc7ry21o-21" target="KJM8Bw2zkL1qbc7ry21o-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KJM8Bw2zkL1qbc7ry21o-21" target="KJM8Bw2zkL1qbc7ry21o-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="302" y="6930" />
+              <mxPoint x="448" y="6930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KJM8Bw2zkL1qbc7ry21o-21" target="KJM8Bw2zkL1qbc7ry21o-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="382" y="6834" />
+              <mxPoint x="382" y="6880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-20" value="&lt;span style=&quot;color: rgb(0, 153, 0);&quot;&gt;开启思维链：任务2&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KJM8Bw2zkL1qbc7ry21o-19">
+          <mxGeometry x="0.165" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-21" value="问指标/数据集Agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="242" y="6804" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-22" value="调用指标/数据集获取MCP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="522" y="6760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-23" value="思维链Agent" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="82" y="6700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-24" value="问题总结Agent" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="101" y="6980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-25" value="图表推荐Agent" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="242" y="6980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-26" value="问题推荐Agent" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="387" y="6980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-27" value="新增开启思维链时，异步输出问题分类理解" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="517" y="6510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-28" value="调用流式输出方法，模拟输出问题理解模版数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="522" y="6680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-29" value="调用流式输出问题分析模版数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="522" y="6850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KJM8Bw2zkL1qbc7ry21o-31" target="KJM8Bw2zkL1qbc7ry21o-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-31" value="意图理解agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="6620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KJM8Bw2zkL1qbc7ry21o-35" target="KJM8Bw2zkL1qbc7ry21o-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KJM8Bw2zkL1qbc7ry21o-35" target="KJM8Bw2zkL1qbc7ry21o-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KJM8Bw2zkL1qbc7ry21o-35" target="KJM8Bw2zkL1qbc7ry21o-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-51" value="开启思维链" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KJM8Bw2zkL1qbc7ry21o-47">
+          <mxGeometry x="0.1752" y="3" relative="1" as="geometry">
+            <mxPoint x="1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KJM8Bw2zkL1qbc7ry21o-35" target="KJM8Bw2zkL1qbc7ry21o-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KJM8Bw2zkL1qbc7ry21o-35" target="KJM8Bw2zkL1qbc7ry21o-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-35" value="归因分析agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="6760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-44" value="归因分析思维链" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1007" y="6710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KJM8Bw2zkL1qbc7ry21o-48" target="KJM8Bw2zkL1qbc7ry21o-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-48" value="归因分析MCP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1007" y="6804" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-52" value="调用指标接口归因" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1207" y="6804" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KJM8Bw2zkL1qbc7ry21o-54" target="KJM8Bw2zkL1qbc7ry21o-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-54" value="图表展示agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="6870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJM8Bw2zkL1qbc7ry21o-56" value="总结分析agent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="7010" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
