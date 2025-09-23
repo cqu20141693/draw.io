@@ -1962,6 +1962,108 @@
         <mxCell id="vQSDXpDtVtNtcryoKQ88-100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vQSDXpDtVtNtcryoKQ88-97" target="vQSDXpDtVtNtcryoKQ88-99">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="vQSDXpDtVtNtcryoKQ88-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vQSDXpDtVtNtcryoKQ88-101" target="vQSDXpDtVtNtcryoKQ88-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQSDXpDtVtNtcryoKQ88-101" value="问题，实体，同义词" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="12980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQSDXpDtVtNtcryoKQ88-102" value="指标匹配逻辑" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="19" y="12890" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vQSDXpDtVtNtcryoKQ88-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vQSDXpDtVtNtcryoKQ88-103" target="vQSDXpDtVtNtcryoKQ88-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQSDXpDtVtNtcryoKQ88-103" value="向量召回：列表" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="13090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQSDXpDtVtNtcryoKQ88-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vQSDXpDtVtNtcryoKQ88-105" target="vQSDXpDtVtNtcryoKQ88-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQSDXpDtVtNtcryoKQ88-105" value="实体排序" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="13190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQSDXpDtVtNtcryoKQ88-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vQSDXpDtVtNtcryoKQ88-107" target="vQSDXpDtVtNtcryoKQ88-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQSDXpDtVtNtcryoKQ88-107" value="实体拼装匹配：指标" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="13290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQSDXpDtVtNtcryoKQ88-112" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vQSDXpDtVtNtcryoKQ88-109" target="vQSDXpDtVtNtcryoKQ88-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQSDXpDtVtNtcryoKQ88-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vQSDXpDtVtNtcryoKQ88-109" target="vQSDXpDtVtNtcryoKQ88-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQSDXpDtVtNtcryoKQ88-118" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vQSDXpDtVtNtcryoKQ88-117">
+          <mxGeometry x="-0.5319" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQSDXpDtVtNtcryoKQ88-109" value="精确命中指标" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="13383" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vQSDXpDtVtNtcryoKQ88-111" value="返回匹配指标列表" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="13393" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQSDXpDtVtNtcryoKQ88-120" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vQSDXpDtVtNtcryoKQ88-116" target="vQSDXpDtVtNtcryoKQ88-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQSDXpDtVtNtcryoKQ88-121" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vQSDXpDtVtNtcryoKQ88-120">
+          <mxGeometry x="-0.2" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQSDXpDtVtNtcryoKQ88-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vQSDXpDtVtNtcryoKQ88-116" target="vQSDXpDtVtNtcryoKQ88-125">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="13630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQSDXpDtVtNtcryoKQ88-124" value="&amp;gt;1个" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vQSDXpDtVtNtcryoKQ88-123">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQSDXpDtVtNtcryoKQ88-127" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vQSDXpDtVtNtcryoKQ88-116" target="vQSDXpDtVtNtcryoKQ88-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQSDXpDtVtNtcryoKQ88-128" value="无" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vQSDXpDtVtNtcryoKQ88-127">
+          <mxGeometry x="-0.4444" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQSDXpDtVtNtcryoKQ88-116" value="相似阈值匹配指标==1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="13510" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vQSDXpDtVtNtcryoKQ88-119" value="返回一个匹配指标" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="13520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQSDXpDtVtNtcryoKQ88-125" value="返回引导指标列表" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="13600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQSDXpDtVtNtcryoKQ88-130" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vQSDXpDtVtNtcryoKQ88-126" target="vQSDXpDtVtNtcryoKQ88-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQSDXpDtVtNtcryoKQ88-131" value="无" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vQSDXpDtVtNtcryoKQ88-130">
+          <mxGeometry x="-0.2653" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vQSDXpDtVtNtcryoKQ88-132" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vQSDXpDtVtNtcryoKQ88-126" target="vQSDXpDtVtNtcryoKQ88-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vQSDXpDtVtNtcryoKQ88-126" value="是否存在引导阈值匹配指标" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="13651" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vQSDXpDtVtNtcryoKQ88-129" value="召回指标为空" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="13780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vQSDXpDtVtNtcryoKQ88-133" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="46" y="13220" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vQSDXpDtVtNtcryoKQ88-134" value="无法实现&lt;div&gt;精确匹配能力&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="13250" width="100" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
