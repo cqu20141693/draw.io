@@ -3253,8 +3253,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="ztLOsphuXp2knsLUIGEq" name="第 2 页">
-    <mxGraphModel dx="1426" dy="824" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="ztLOsphuXp2knsLUIGEq" name="GUC">
+    <mxGraphModel dx="1363" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3416,6 +3416,27 @@
         </mxCell>
         <mxCell id="DkhJEtbBF1TwK5vATUhv-79" parent="1" style="whiteSpace=wrap;html=1;" value="系统语言" vertex="1">
           <mxGeometry height="20" width="80" x="610" y="690.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DkhJEtbBF1TwK5vATUhv-132" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="200" width="240" x="100" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="DkhJEtbBF1TwK5vATUhv-133" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SPA" vertex="1">
+          <mxGeometry height="30" width="60" x="180" y="844" as="geometry" />
+        </mxCell>
+        <mxCell id="DkhJEtbBF1TwK5vATUhv-134" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="应用管理" vertex="1">
+          <mxGeometry height="30" width="100" x="120" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="DkhJEtbBF1TwK5vATUhv-135" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="License 导入" vertex="1">
+          <mxGeometry height="30" width="100" x="120" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="DkhJEtbBF1TwK5vATUhv-136" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="local-info" vertex="1">
+          <mxGeometry height="30" width="100" x="120" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="DkhJEtbBF1TwK5vATUhv-137" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="License 生成" vertex="1">
+          <mxGeometry height="30" width="100" x="233" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="DkhJEtbBF1TwK5vATUhv-138" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="应用权限验证" vertex="1">
+          <mxGeometry height="30" width="100" x="233" y="950" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
