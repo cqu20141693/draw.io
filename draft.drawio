@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" pages="5">
-  <diagram name="第 1 页" id="w3Xznffj2VE_VyX7rNSw">
-    <mxGraphModel dx="2929" dy="1431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" pages="6">
+  <diagram name="智能问数" id="w3Xznffj2VE_VyX7rNSw">
+    <mxGraphModel dx="1761" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3528,6 +3528,73 @@
             <mxGeometry height="1066" width="1093" x="750" y="3380" as="geometry" />
           </mxCell>
         </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8JbPl4A687T-DUhlsir3" name="智能体平台">
+    <mxGraphModel dx="934" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BIe-3_bDT9oaLZ2wHJwA-5" edge="1" parent="1" source="BIe-3_bDT9oaLZ2wHJwA-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="BIe-3_bDT9oaLZ2wHJwA-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BIe-3_bDT9oaLZ2wHJwA-8" edge="1" parent="1" source="BIe-3_bDT9oaLZ2wHJwA-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="BIe-3_bDT9oaLZ2wHJwA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BIe-3_bDT9oaLZ2wHJwA-10" edge="1" parent="1" source="BIe-3_bDT9oaLZ2wHJwA-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BIe-3_bDT9oaLZ2wHJwA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BIe-3_bDT9oaLZ2wHJwA-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="60" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="BIe-3_bDT9oaLZ2wHJwA-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="导入本量利预测数据" vertex="1">
+          <mxGeometry height="70" width="140" x="260" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BIe-3_bDT9oaLZ2wHJwA-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="导入本量利月度实际数据" vertex="1">
+          <mxGeometry height="70" width="140" x="260" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="BIe-3_bDT9oaLZ2wHJwA-12" edge="1" parent="1" source="BIe-3_bDT9oaLZ2wHJwA-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BIe-3_bDT9oaLZ2wHJwA-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BIe-3_bDT9oaLZ2wHJwA-14" edge="1" parent="1" source="BIe-3_bDT9oaLZ2wHJwA-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="BIe-3_bDT9oaLZ2wHJwA-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BIe-3_bDT9oaLZ2wHJwA-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="定时报表" vertex="1">
+          <mxGeometry height="70" width="140" x="260" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="BIe-3_bDT9oaLZ2wHJwA-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="定时通知责任人上传" vertex="1">
+          <mxGeometry height="70" width="140" x="520" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="BIe-3_bDT9oaLZ2wHJwA-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="定时生产报表，企微应用推送消息(图片)" vertex="1">
+          <mxGeometry height="70" width="140" x="520" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="BIe-3_bDT9oaLZ2wHJwA-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=16;" value="&lt;a href=&quot;https://chat.deepseek.com/share/jzzadabebdgbci4jyy&quot;&gt;智能体架构deepseek&lt;/a&gt;" vertex="1">
+          <mxGeometry height="30" width="250" x="100" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="BIe-3_bDT9oaLZ2wHJwA-16" parent="1" style="whiteSpace=wrap;html=1;" value="应用：问数+问知" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="BIe-3_bDT9oaLZ2wHJwA-17" parent="1" style="whiteSpace=wrap;html=1;" value="langchain+langgraph" vertex="1">
+          <mxGeometry height="60" width="216" x="294" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="BIe-3_bDT9oaLZ2wHJwA-18" parent="1" style="whiteSpace=wrap;html=1;" value="智能体：问数+问知" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="BIe-3_bDT9oaLZ2wHJwA-19" parent="1" style="whiteSpace=wrap;html=1;" value="Autogen+ wrokflow&lt;div&gt;mcp+ langchain+langgraph&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="216" x="294" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="BIe-3_bDT9oaLZ2wHJwA-20" parent="1" style="whiteSpace=wrap;html=1;" value="技能智能体：问数+问知" vertex="1">
+          <mxGeometry height="60" width="120" x="140" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="BIe-3_bDT9oaLZ2wHJwA-21" parent="1" style="whiteSpace=wrap;html=1;" value="deepagents+ skills&lt;div&gt;mcp+ langchain+langgraph&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="216" x="294" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="BIe-3_bDT9oaLZ2wHJwA-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="测算智能体" vertex="1">
+          <mxGeometry height="30" width="90" x="70" y="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
